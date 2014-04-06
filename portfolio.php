@@ -65,7 +65,7 @@
 
         <div class="row featurette" style="background-color: #ededed;">
             <div class="imgbox col-xs-5">
-                <img class="img-responsive" src="images/portfolio/jofrederiks.png" alt="LiberaDiretta">
+                <img class="img-responsive" src="images/portfolio/jofrederiks.png" alt="Jo Frederiks">
             </div>
             <div class="col-xs-7">
                 <h2 class="featurette-heading">Jo Frederiks</h2>
