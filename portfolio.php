@@ -115,7 +115,7 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette bg-warning">
+        <div class="row featurette bg-success">
             <div class="col-xs-5">
                 <img class="imgbox img-responsive" src="images/portfolio/aziendaagricola.png" alt="Azienda Agricola">
             </div>
