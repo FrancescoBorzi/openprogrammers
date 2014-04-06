@@ -11,16 +11,17 @@ body {
 }
 
 #footer { height: 60px; }
-  
-.imgbox {
-  padding: 10px;
+
+.imgbox { padding: 10px; }
+
+.imgbox img {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
 }
 
-.imgbox:hover {
+.imgbox img:hover {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -40,9 +41,7 @@ body {
     color: #4b9ee6;
 }
 
-.portfolio {
- text-align: center;
-}
+.portfolio { text-align: center; }
 
 .featurette-heading {
   font-weight: bold;
