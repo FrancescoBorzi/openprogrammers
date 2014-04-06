@@ -59,16 +59,19 @@
       </div>
     </div>
 
-    <div class="container content portfolio">
+    <div class="container content portfolio text-center">
 
       <hr class="featurette-divider">
 
       <div class="row featurette" style="background-color: #ededed;">
-        <div class="imgbox col-xs-5">
-          <a target="_blank" href="http://jofrederiks.altervista.org"><img class="img-responsive" src="images/portfolio/jofrederiks.png" alt="Jo Frederiks"></a>
+        <h2 class="visible-xs featurette-heading">Jo Frederiks</h2>
+        <div class="col-sm-5">
+          <div class="imgbox">
+            <a target="_blank" href="http://jofrederiks.altervista.org"><img class="img-responsive" src="images/portfolio/jofrederiks.png" alt="Jo Frederiks"></a>
+          </div>
         </div>
-        <div class="col-xs-7">
-        <h2 class="featurette-heading">Jo Frederiks</h2>
+        <div class="col-sm-7">
+        <h2 class="hidden-xs featurette-heading">Jo Frederiks</h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod</p>
           <h2 class="gosite"><a target="_blank" href="http://jofrederiks.altervista.org/">Vai al sito →</a></h2>
         </div>
@@ -77,25 +80,31 @@
       <hr class="featurette-divider">
 
       <div class="row featurette bg-info">
-        <div class="col-xs-7">
+        <h2 class="visible-xs featurette-heading">Foto e Video Corallo</h2>
+        <div class="col-sm-7">
           <br><br>
-          <h2 class="featurette-heading">Foto e Video Corallo</h2>
+          <h2 class="hidden-xs featurette-heading">Foto e Video Corallo</h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.</p>
           <h2 class="gosite"><a target="_blank" href="http://photoevideocorallo.it">Vai al sito →</a></h2>
         </div>
-        <div class="imgbox col-xs-5">
-          <a target="_blank" href="http://photoevideocorallo.it"><img class="img-responsive" src="images/portfolio/corallovideo.png" alt="Foto e Video Corallo"></a>
+        <div class="col-sm-5">
+          <div class="imgbox">
+            <a target="_blank" href="http://photoevideocorallo.it"><img class="img-responsive" src="images/portfolio/corallovideo.png" alt="Foto e Video Corallo"></a>
+          </div>
         </div>
       </div>
 
       <hr class="featurette-divider">
 
       <div class="row featurette bg-danger">
-        <div class="imgbox col-xs-5">
-          <a target="_blank" href="http://ldtesting.altervista.org/blog/"><img class="img-responsive" src="images/portfolio/liberadiretta.png" alt="LiberaDiretta"></a>
+        <h2 class="visible-xs featurette-heading">LiberaDiretta</h2>
+        <div class="col-sm-5">
+          <div class="imgbox">
+            <a target="_blank" href="http://ldtesting.altervista.org/blog/"><img class="img-responsive" src="images/portfolio/liberadiretta.png" alt="LiberaDiretta"></a>
+          </div>
         </div>
         <div class="col-xs-7">
-          <h2 class="featurette-heading">LiberaDiretta</h2>
+          <h2 class="hidden-xs featurette-heading">LiberaDiretta</h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.</p>
           <h2 class="gosite"><a target="_blank" href="http://ldtesting.altervista.org/blog/">Vai al sito →</a></h2>
         </div>
@@ -104,24 +113,30 @@
       <hr class="featurette-divider">
 
       <div class="row featurette bg-warning">
-        <div class="col-xs-7">
-          <h2 class="featurette-heading">Progettazione-interni.org</h2>
+        <h2 class="visible-xs featurette-heading">Progettazione-interni.org</h2>
+        <div class="col-sm-7">
+          <h2 class="hidden-xs featurette-heading">Progettazione-interni.org</h2>
           <p class="lead">descrizione sito.... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
           <h2 class="gosite"><a target="_blank" href="http://progettazione-interni.org">Vai al sito →</a></h2>
         </div>
-        <div class="imgbox col-xs-5">
-          <a target="_blank" href="http://progettazione-interni.org"><img class="img-responsive" src="images/portfolio/progettazioneinterni.png" alt="Progettazione-Interni.org"></a>
+        <div class="col-sm-5">
+          <div class="imgbox">
+            <a target="_blank" href="http://progettazione-interni.org"><img class="img-responsive" src="images/portfolio/progettazioneinterni.png" alt="Progettazione-Interni.org"></a>
+          </div>
         </div>
       </div>
 
       <hr class="featurette-divider">
 
       <div class="row featurette bg-success">
-        <div class="imgbox col-xs-5">
-          <img class="img-responsive" src="images/portfolio/aziendaagricola.png" alt="Azienda Agricola">
+        <h2 class="visible-xs featurette-heading">Azienda Agricola</h2>
+        <div class="col-sm-5">
+          <div class="imgbox">
+            <img class="img-responsive" src="images/portfolio/aziendaagricola.png" alt="Azienda Agricola">
+          </div>
         </div>
-        <div class="col-xs-7">
-          <h2 class="featurette-heading">Azienda Agricola</h2>
+        <div class="col-sm-7">
+          <h2 class="hidden-xs featurette-heading">Azienda Agricola</h2>
           <p class="lead">descrizione sito.... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
           <h2 class="gosite"><b>Sito in costruzione</b></h2>
         </div>
