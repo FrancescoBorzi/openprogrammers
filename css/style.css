@@ -16,3 +16,11 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
 }
+  
+.imgbox {
+    padding: 10px;
+}
+
+.gosite {
+    bottom: 0;
+}
