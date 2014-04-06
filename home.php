@@ -59,7 +59,7 @@
       </div>
     </div>
 
-    <div class="container content">
+    <div class="container content text-center">
       
       <h1>Lavori in corso...</h1>
 

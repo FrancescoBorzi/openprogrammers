@@ -60,6 +60,38 @@
     </div>
 
     <div class="container content">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Realizzazione Siti Web</h1>
+          <p class="h4">Realizziamo siti web per privati, società e aziende. Visita il nostro <a href="portfolio.php">portfolio</a> per visualizzare alcuni dei siti che abbiamo realizzato.</p>
+          <a class="btn btn-primary btn-lg" role="button" href="portfolio.php">Portfolio »</a>
+        </div>
+      </div>
+      <br>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Siti Internet per tutti</h2>
+          <p>Che siate un'azienda, una società o privati, presentarsi sul web è ormai una necessità. Per questo realizziamo siti web fatti su misura a seconda della tipologia e dell'esesigenze della nostra clientela.</p>
+        </div>
+        <div class="col-md-6 text-right">
+          <h2>Perchè non abbiamo un listino prezzi?</h2>
+          <p>Il carico di lavoro necessario alla realizzazione di un sito web può variare molto in base alla sua tipologia. Per questo motivo non abbiamo prezzi fissi, ma preferiamo ascoltare prima il cliente per capire quali sono le sue esigenze e riuscire a stimare bene il costo del sito internet che dobbiamo realizzare.</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Responsive Web Design</h2>
+          <p>Il termine Responsive Web Design è tecnica per la realizzazione di siti web in modo che le pagine adattino automaticamente il layout per fornire una visualizzazione ottimale in funzione dell'ambiente nei quali vengono visualizzati (desktop, tablet, smartphone, web tv, etc...).</p>
+          <p>Noi ci serviamo di tale tecnica per adattare i nostri siti web a tutti i dispositivi maggiormente in uso e a tutte le ultime versioni dei browser comuni.</p>
+        </div>
+        <div class="col-md-6 text-right">
+          <h2>Come richiedere un preventivo?</h2>
+          <p>Puoi <a href="contatti.php">contattarci</a> per descriverci il sito web di cui hai bisogno ed ottenere un preventivo gratuito. Puoi spedirci immagini, schizzi oppure alcuni esempi di siti internet già esistenti per mostrarci l'idea di sito web che desideri.</p>
+          <p>In alternativa, se non sai ancora le idee chiare sulla tipologia di sito internet da realizzare, contattaci e ti aiuteremo a capire qual è sito internet che maggiormente corrisponde alle tue esigenze.</p>
+        </div>
+      </div>
       
       <!-- Site footer -->
       <div id="footer">
