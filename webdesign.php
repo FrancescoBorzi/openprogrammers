@@ -38,9 +38,9 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="home.php">Home</a></li>
+            <li><a href="home.php">Home</a></li>
             <li><a href="chisiamo.php">Chi siamo</a></li>
-            <li><a href="webdesign.php">WebDesign</a></li>
+            <li class="active"><a href="webdesign.php">WebDesign</a></li>
             <li><a href="portfolio.php">Portfolio</a></li>
              <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Software<b class="caret"></b></a>

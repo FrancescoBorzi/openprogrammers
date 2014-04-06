@@ -38,7 +38,7 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="home.php">Home</a></li>
+            <li><a href="home.php">Home</a></li>
             <li><a href="chisiamo.php">Chi siamo</a></li>
             <li><a href="webdesign.php">WebDesign</a></li>
             <li><a href="portfolio.php">Portfolio</a></li>
@@ -53,7 +53,7 @@
                 </ul>
               </li>
             <li><a target="_blank" href="http://shinworld.altervista.org">Blog</a></li>
-            <li><a href="contatti.php">Contatti</a></li>
+            <li class="active"><a href="contatti.php">Contatti</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

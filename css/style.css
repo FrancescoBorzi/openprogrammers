@@ -2,4 +2,19 @@ body {
   padding-top: 50px;
 }
 
-.icon-github-circled { content: '\e800'; }
+.navbar {
+  background-image: linear-gradient(to bottom, #3C3C3C 0px, #222 100%);
+}
+
+.content {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
