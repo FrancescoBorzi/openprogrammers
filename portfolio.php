@@ -60,6 +60,73 @@
     </div>
 
     <div class="container content">
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette" style="background-color: #ededed;">
+            <div class="imgbox col-xs-5">
+                <img class="img-responsive" src="images/portfolio/jofrederiks.png" alt="LiberaDiretta">
+            </div>
+            <div class="col-xs-7">
+                <h2 class="featurette-heading">Jo Frederiks</h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod</p>
+                <h2><a href="http://jofrederiks.altervista.org/" style="color: #c1c1c1;">Vai al sito →</a></h2>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette bg-info">
+            <div class="imgbox col-xs-7">
+                <h2 class="featurette-heading">Foto e Video Corallo</h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.</p>
+                <h2><a href="http://photoevideocorallo.it" style="color: #c1c1c1;">Vai al sito →</a></h2>
+            </div>
+            <div class="imgbox col-xs-5">
+                <img class="img-responsive" src="images/portfolio/corallovideo.png" alt="Foto e Video Corallo">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette bg-danger">
+            <div class="imgbox col-xs-5">
+                <img class="img-responsive" src="images/portfolio/liberadiretta.png" alt="LiberaDiretta">
+            </div>
+            <div class="col-xs-7">
+                <h2 class="featurette-heading">LiberaDiretta</h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.</p>
+                <h2><b style="color: #c1c1c1;">Sito in costruzione</b></h2>
+            </div>
+        </div>
+
+      <hr class="featurette-divider">
+
+        <div class="row featurette bg-warning">
+            <div class="col-xs-7">
+                <h2 class="featurette-heading">Progettazione-interni.org</h2>
+                <p class="lead">descrizione sito.... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                <h2><a href="http://progettazione-interni.org" style="color: #c1c1c1;">Vai al sito →</a></h2>
+            </div>
+            <div class="col-xs-5">
+                <img class="imgbox img-responsive" src="images/portfolio/progettazioneinterni.png" alt="Progettazione-Interni.org">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette bg-warning">
+            <div class="col-xs-5">
+                <img class="imgbox img-responsive" src="images/portfolio/aziendaagricola.png" alt="Azienda Agricola">
+            </div>
+            <div class="col-xs-7">
+                <h2 class="featurette-heading">Azienda Agricola</h2>
+                <p class="lead">descrizione sito.... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                <h2><b style="color: #c1c1c1;">Sito in costruzione</b></h2>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
       
       <!-- Site footer -->
       <div id="footer">
