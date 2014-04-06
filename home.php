@@ -61,10 +61,19 @@
 
     <div class="container content">
       
+      <h1>Lavori in corso...</h1>
+
+      <img src="images/Under_Construction.jpg">
+
+      <h2>Stiamo ristrutturando il nostro sito web, alcune pagine potrebbero non essere visualizzate correttamente.</h2>
+
+      <h2>Potete contattarci all'indirizzo: <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a></h2>
+
       <!-- Site footer -->
       <div id="footer">
         <p class="text-left">&copy; OpenProgrammers</p>
       </div>
+
     </div><!-- /.container -->
 
 
