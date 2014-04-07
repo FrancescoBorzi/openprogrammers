@@ -27,11 +27,11 @@ body {
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
   box-shadow: 5px 5px 5px #888;
 }
 
@@ -40,8 +40,6 @@ body {
     text-align: center;
     color: #4b9ee6;
 }
-
-.portfolio { text-align: center; }
 
 .featurette-heading {
   font-weight: bold;
