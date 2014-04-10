@@ -61,6 +61,18 @@
 
     <div class="container content">
       
+      <div class="row">
+        <div class="col-md-6 col-sm-12 text-right">
+          <h2 align="center">Francesco Borzì</h2>
+          <img class="radius" style="float: left;" alt="Francesco Borzì" src="images/stefano.png"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 text-left">
+          <h2 align="center">Stefano Borzì</h2>
+          <img class="radius" style="float: right;" alt="Stefano Borzì" src="images/stefano.png"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+        </div>
+      </div>
+      <br>
+      
       <!-- Site footer -->
       <div id="footer">
         <p class="text-left">&copy; OpenProgrammers</p>
