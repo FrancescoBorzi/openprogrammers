@@ -1,3 +1,6 @@
+<?php
+  include_once("db_connect.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -61,6 +64,27 @@
 
     <div class="container content text-center">
       
+      <?php
+          $query = "SELECT COUNT(*) FROM quotes";
+          $result = mysqli_query($connection, $query);
+          $row = mysqli_fetch_row($result);
+
+          $rand = rand(1, $row[0]);
+          $query = sprintf("SELECT quote, author FROM quotes WHERE id = %d", $rand);
+          $result = mysqli_query($connection, $query);
+          $row = mysqli_fetch_array($result);
+
+          $quote = $row['quote'];
+          $author = $row['author'];
+      ?>
+
+      <div class="row">
+        <blockquote class="pull-right">
+          <p><?= $quote ?></p>
+          <small><?= $author ?></small>
+        </blockquote>
+      </div>
+
       <h1>Lavori in corso...</h1>
 
       <img src="images/Under_Construction.jpg">
