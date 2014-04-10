@@ -63,7 +63,7 @@
 
       <div class="row">
         <div class="animation">
-          <div class="col-md-6">
+          <div class="col-md-6 col-md-offset-1">
             <form action="./mail.php" method="get">
               <h2>Inviaci un e-mail</h2>
               <input type="text" placeholder="Nome Cognome" name="dati" required />
@@ -77,7 +77,7 @@
               <input type="submit" value="invia" class="invia">
             </form>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-5">
             <br><br>
             <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px;">
               <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
