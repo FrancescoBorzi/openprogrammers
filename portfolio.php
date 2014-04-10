@@ -59,7 +59,14 @@
       </div>
     </div>
 
-    <div class="container content portfolio text-center">
+    <div class="container content text-center">
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="text-left">Portfolio</h1>
+          <p class="text-left lead">Ecco alcuni dei siti web che abbiamo realizzato...</p>
+        </div>
+      </div>
 
       <hr class="featurette-divider">
 
@@ -71,8 +78,10 @@
           </div>
         </div>
         <div class="col-sm-7">
-        <h2 class="hidden-xs featurette-heading">Jo Frederiks</h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod</p>
+          <br class="hidden-xs">
+          <br class="hidden-xs">
+          <h2 class="hidden-xs featurette-heading">Jo Frederiks</h2>
+          <p class="lead">Jo Frederiks è un artista vegana australiana che utilizza le sue opere d'arte per raccontare le sofferenze che gli animali subiscono per mano dell'uomo.</p>
           <h2 class="gosite"><a target="_blank" href="http://jofrederiks.altervista.org/">Vai al sito →</a></h2>
         </div>
       </div>
