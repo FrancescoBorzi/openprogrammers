@@ -65,13 +65,20 @@
         <div class="col-md-6 col-sm-12 text-right">
           <h2 align="center">Francesco Borzì</h2>
           <img class="radius" style="float: left;" alt="Francesco Borzì" src="images/francesco.png"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-        <span class="glyphicon glyphicon-envelope" style="font-size: 25px;">
-              <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
+          <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px;">
+            <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
+          </span>
+          <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px;">
+            <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
+          </span>
         </div>
         <div class="col-md-6 col-sm-12 col-xs-12 text-left">
           <h2 align="center">Stefano Borzì</h2>
           <img class="radius" style="float: right;" alt="Stefano Borzì" src="images/stefano.png"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-          <span class="glyphicon glyphicon-envelope" style="font-size: 25px;">
+            <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px;">
+              <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
+            </span>
+            <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px;">
               <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
             </span>
         </div>

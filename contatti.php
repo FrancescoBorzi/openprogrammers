@@ -79,19 +79,28 @@
           </div>
           <div class="col-md-6">
             <br><br>
-            <span class="glyphicon glyphicon-envelope" style="font-size: 25px;">
+            <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px;">
+              <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
+            </span>
+            <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px;">
               <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
             </span>
             <br>
-            <span class="glyphicon glyphicon-phone" style="font-size: 25px;"> 3405481315</span>
+            <span class="glyphicon glyphicon-phone hidden-xs" style="font-size: 25px;"> 3405481315</span>
+            <span class="glyphicon glyphicon-phone visible-xs" style="font-size: 18px;"> 3405481315</span>
 
             <hr>
 
-            <span class="glyphicon glyphicon-envelope" style="font-size: 25px;">
+            <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px;">
+              <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
+            </span>
+            
+            <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px;">
               <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
             </span>
             <br>
-          <span class="glyphicon glyphicon-phone" style="font-size: 25px;"> 3409951314</span>
+          <span class="glyphicon glyphicon-phone hidden-xs" style="font-size: 25px;"> 3409951314</span>
+          <span class="glyphicon glyphicon-phone visible-xs" style="font-size: 18px;"> 3409951314</span>
 
           </div>
         </div>
