@@ -92,7 +92,6 @@ form textarea {
     font-size: 20px;
     color: #4f4f4f;
     resize: none;
-    background-color: transparent;
     border: 1px solid #d0d1d2;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -115,7 +114,6 @@ form {
   -o-transition: all 1.5s ease-in-out;
   -ms-transition: all 1.5s ease-in-out;
   transition: all 1.5s ease-in-out;
-  z-index: -1;
   animation:scaling 2s;
   
   -moz-animation-name: scaling;
