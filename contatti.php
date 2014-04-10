@@ -60,7 +60,43 @@
     </div>
 
     <div class="container content">
-      
+
+      <div class="row">
+        <div class="animation">
+          <div class="col-md-6">
+            <form action="./mail.php" method="get">
+              <h2>Inviaci un e-mail</h2>
+              <input type="text" placeholder="Nome Cognome" name="dati" required />
+
+              <input type="email" placeholder="LaTuaEmail@gmail.com" name="email" required>
+
+              <input type="text" placeholder="Oggetto dell' e-mail" name="oggetto" required>
+
+              <textarea name="messaggio" placeholder="Messaggio..." required ></textarea>
+              <br>
+              <input type="submit" value="invia" class="invia">
+            </form>
+          </div>
+          <div class="col-md-6">
+            <br><br>
+            <span class="glyphicon glyphicon-envelope" style="font-size: 25px;">
+              <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
+            </span>
+            <br>
+            <span class="glyphicon glyphicon-phone" style="font-size: 25px;"> 3405481315</span>
+
+            <hr>
+
+            <span class="glyphicon glyphicon-envelope" style="font-size: 25px;">
+              <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
+            </span>
+            <br>
+          <span class="glyphicon glyphicon-phone" style="font-size: 25px;"> 3409951314</span>
+
+          </div>
+        </div>
+      </div>
+      <br><br>
       <!-- Site footer -->
       <div id="footer">
         <p class="text-left">&copy; OpenProgrammers</p>
