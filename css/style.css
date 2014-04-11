@@ -10,7 +10,15 @@ body {
   padding: 40px 15px;
 }
 
-#footer { height: 60px; }
+#footer {
+  margin-top: 80px;
+}
+
+#sticky_footer {
+  position: absolute;
+  bottom: 0;
+}
+
 
 .imgbox { padding: 10px; }
 
