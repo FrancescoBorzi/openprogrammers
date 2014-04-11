@@ -62,23 +62,43 @@
     <div class="container content">
       
       <div class="row">
-        <div class="col-md-6 col-sm-12 text-right">
+        <div class="col-md-6 text-right animation">
           <h2 align="center">Francesco Borzì</h2>
-          <img class="radius" style="float: left;" alt="Francesco Borzì" src="images/francesco.png" width="40%"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-          <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px;">
+          <div class="row">
+            <div class="col-xs-4">
+              <img class="radius" alt="Francesco Borzì" src="images/francesco.png" width="100%">
+            </div>
+            <div class="col-xs-8 text-left">
+              <p>La programmazione per me è stata sempre una grande passione.</p>
+              <p>A 16 anni ho messo in piedi un piccolo server privato di <a href="http://it.wikipedia.org/wiki/World_of_Warcraft">World of Warcraft</a> cominciando a lavorare con applicazioni <strong>game-server</strong> open source come <a href="http://it.wikipedia.org/wiki/MaNGOS">MaNGOS</a> e <a href="http://www.trinitycore.org/">TrinityCore</a>.</p>
+              <p>A 21 anni mi sono laureato in Informatica riportando la votazione di <strong>105</strong>/110 presso l'Università di Catania.</p>
+              <p>Attualmente sto proseguendo gli studi per ottenere la laurea specialistica in <strong>Sistemi e Sicurezza</strong>, contemporaneamente lavoro come <strong>WebDeveloper</strong> presso <a href="http://www.italiahotspot.it">ItaliaHotSpot</a>.</p>
+            </div>
+          </div>
+          <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px; float: left; margin-top: 20px; margin-bottom: 30px;">
             <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
           </span>
-          <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px;">
+          <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px; float: left; margin-top: 20px; margin-bottom: 30px;">
             <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
           </span>
         </div>
-        <div class="col-md-6 col-sm-12 col-xs-12 text-left">
+        <div class="col-md-6 text-left animation">
           <h2 align="center">Stefano Borzì</h2>
-          <img class="radius" style="float: right;" alt="Stefano Borzì" src="images/stefano.png" width="30%"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-            <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px;">
+          <div class="row">
+            <div class="col-xs-8 text-left">
+              <p>Sono un giovane appassionato di informatica, attualmente frequento il quinto anno del Liceo Scientifico PNI (Piano Nazionale di Informatica).</p>
+              <p>La programmazione e la realizzazione di siti web è la mia attività preferita.</p>
+              <p>Mi piace stare sempre al passo con la tecnologia apprendendo tutte le nuove tecniche del web in circolazione.</p>
+              <p>Sono il responsabile tecnico informatico del progetto <a href="http://youtube.com/salvocd">LiberaDiretta</a> di cui gestisco il sito web.</p>
+            </div>
+            <div class="col-xs-4">
+              <img class="radius" style="" alt="Stefano Borzì" src="images/stefano.png" width="100%">
+            </div>
+          </div>
+            <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px; float: right; margin-top: 55px;">
               <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
             </span>
-            <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px;">
+            <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px; float: right; margin-top: 55px;">
               <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
             </span>
         </div>
