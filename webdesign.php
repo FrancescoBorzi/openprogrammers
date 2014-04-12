@@ -79,30 +79,35 @@
       <br>
 
       <div class="row">
-        <div class="col-md-6">
-          <h2>Siti Internet per tutti</h2>
-          <p>Che siate un'azienda, una società o privati, presentarsi sul web è ormai una necessità. Per questo realizziamo siti web fatti su misura a seconda della tipologia e dell'esesigenze della nostra clientela.</p>
+        <div class="col-md-6 animation">
+          <h2><img src="images/HTML5.png" alt="HTML5"> Standard HTML5 & CSS3 <img src="images/CSS3.jpg" alt="CSS3"></h2>
+          <p>Per noi è importante che le pagine web siano conformi agli standard di <strong>HTML5</strong> e <strong>CSS3</strong>, per sfruttare a pieno le ultime tecnologie che il web mette a disposizione e garantire la massima compatibilità con tutte le versioni più aggiornate dei browsers più diffusi.</p>
+          <p>Ci impegnamo affinchè la struttura del nostro codice segua degli <a href="http://mdo.github.io/code-guide/">standard</a> precisi che aiutino a migliorare la leggibilità, l'ordine e quindi anche il mantenimento dello stesso codice.</p>
         </div>
-        <div class="col-md-6 text-right">
-          <h2>Perchè non abbiamo un listino prezzi?</h2>
-          <p>Il carico di lavoro necessario alla realizzazione di un sito web può variare molto in base alla sua tipologia. Per questo motivo non abbiamo prezzi fissi, ma preferiamo ascoltare prima il cliente per capire quali sono le sue esigenze e riuscire a stimare bene il costo del sito internet che dobbiamo realizzare.</p>
+        <div class="col-md-6 text-right animation">
+          <h2><span class="glyphicon glyphicon glyphicon-euro"></span> Perchè non abbiamo un listino prezzi?</h2>
+          <p>Il carico di lavoro necessario alla realizzazione di un sito web può variare molto in base alla sua tipologia.</p>
+          <p>Per questo motivo non abbiamo prezzi fissi, ma preferiamo ascoltare prima il cliente per capire quali sono le sue esigenze e riuscire a stimare bene il costo del sito internet che dobbiamo realizzare.</p>
         </div>
       </div>
       <br>
       <div class="row">
-        <div class="col-md-6">
-          <h2>Responsive Web Design</h2>
-          <p>Il termine Responsive Web Design è tecnica per la realizzazione di siti web in modo che le pagine adattino automaticamente il layout per fornire una visualizzazione ottimale in funzione dell'ambiente nei quali vengono visualizzati (desktop, tablet, smartphone, web tv, etc...).</p>
-          <p>Noi ci serviamo di tale tecnica per adattare i nostri siti web a tutti i dispositivi maggiormente in uso e a tutte le ultime versioni dei browser comuni.</p>
+        <div class="col-md-6 animation">
+          <h2><img src="images/bootstrap-icon.png" alt="Bootstrap"> Responsive Web Design</h2>
+          <p>Grazie al front-end framework <a href="http://getbootstrap.com/">Bootstrap</a> è possibile realizzare siti web totalmente responsive.</p>
+          <p>Le pagine di un sito responsive sono progettate in modo da far adattare automaticamente il layout per fornire una visualizzazione ottimale in funzione dell'ambiente nel quale vengono visualizzate (desktop, tablet, smartphone, etc...).</p>
         </div>
-        <div class="col-md-6 text-right">
-          <h2>Come richiedere un preventivo?</h2>
+        <div class="col-md-6 text-right animation">
+          <h2><span class="glyphicon glyphicon glyphicon-pencil"></span> Come richiedere un preventivo?</h2>
           <p>Puoi <a href="contatti.php">contattarci</a> per descriverci il sito web di cui hai bisogno ed ottenere un preventivo gratuito. Puoi spedirci immagini, schizzi oppure alcuni esempi di siti internet già esistenti per mostrarci l'idea di sito web che desideri.</p>
           <p>In alternativa, se non sai ancora le idee chiare sulla tipologia di sito internet da realizzare, contattaci e ti aiuteremo a capire qual è sito internet che maggiormente corrisponde alle tue esigenze.</p>
         </div>
       </div>
 
-      <div id="footer">
+      <div id="sticky_footer" class="visible-lg">
+        <p class="text-left">&copy; OpenProgrammers</p>
+      </div>
+      <div id="footer" class="hidden-lg">
         <p class="text-left">&copy; OpenProgrammers</p>
       </div>
     </div><!-- /.container -->
