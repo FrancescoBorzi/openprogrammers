@@ -70,10 +70,12 @@
 
     <div class="container content">
 
+      <h2 class="text-center">Inviaci un e-mail</h2>
+
       <div class="row">
         <div class="animation">
           <div class="col-md-6 col-md-offset-1">
-            <h2>Inviaci un e-mail</h2>
+            <br><br>
             <form class="form-horizontal" role="form" action="mail.php" method="get">
               <div class="form-group">
                 <label for="inputEmail3" class="col-sm-4 control-label">Nominativo</label>
