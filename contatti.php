@@ -73,18 +73,38 @@
       <div class="row">
         <div class="animation">
           <div class="col-md-6 col-md-offset-1">
-            <form action="./mail.php" method="get">
-              <h2>Inviaci un e-mail</h2>
-              <input type="text" placeholder="Nome Cognome" name="dati" required />
-
-              <input type="email" placeholder="LaTuaEmail@gmail.com" name="email" required>
-
-              <input type="text" placeholder="Oggetto dell' e-mail" name="oggetto" required>
-
-              <textarea name="messaggio" placeholder="Messaggio..." required ></textarea>
-              <br>
-              <input type="submit" value="invia" class="invia">
+            <h2>Inviaci un e-mail</h2>
+            <form class="form-horizontal" role="form" action="mail.php" method="get">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-4 control-label">Nominativo</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" placeholder="Nome Cognome">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-4 control-label">Oggetto</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" placeholder="Oggetto dell'email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-4 control-label">Email</label>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="La tua email">
+                </div>
+              </div><div class="form-group">
+                <label for="inputEmail3" class="col-sm-4 control-label">Messaggio:</label>
+                <div class="col-sm-8">
+                  <textarea name="messaggio" placeholder="Messaggio..." required ></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-4 col-sm-8">
+                  <button type="submit" class="btn btn-primary btn-block btn-lg">Invia</button>
+                </div>
+              </div>
             </form>
+
           </div>
           <div class="col-md-5">
             <br><br>
