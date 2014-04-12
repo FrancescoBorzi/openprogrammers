@@ -102,7 +102,7 @@
         <div class="col-sm-7">
           <br><br>
           <h2 class="hidden-xs featurette-heading">Foto e Video Corallo</h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.</p>
+          <p class="lead">Azienda fotografica attiva da oltre 40 anni</p>
           <h2 class="gosite"><a target="_blank" href="http://photoevideocorallo.it">Vai al sito →</a></h2>
         </div>
         <div class="col-sm-5">
@@ -123,7 +123,7 @@
         </div>
         <div class="col-xs-7">
           <h2 class="hidden-xs featurette-heading">LiberaDiretta</h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.</p>
+          <p class="lead">Un esperimento di comunicazione...</p>
           <h2 class="gosite"><a target="_blank" href="http://ldtesting.altervista.org/blog/">Vai al sito →</a></h2>
         </div>
       </div>
@@ -134,7 +134,7 @@
         <h2 class="visible-xs featurette-heading">Progettazione-interni.org</h2>
         <div class="col-sm-7">
           <h2 class="hidden-xs featurette-heading">Progettazione-interni.org</h2>
-          <p class="lead">descrizione sito.... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+          <p class="lead">Studio della distribuzione degli spazi, di ristrutturazioni e di arredamento.</p>
           <h2 class="gosite"><a target="_blank" href="http://progettazione-interni.org">Vai al sito →</a></h2>
         </div>
         <div class="col-sm-5">
@@ -155,8 +155,8 @@
         </div>
         <div class="col-sm-7">
           <h2 class="hidden-xs featurette-heading">Azienda Agricola</h2>
-          <p class="lead">descrizione sito.... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-          <h2 class="gosite"><b>Sito in costruzione</b></h2>
+          <p class="lead">Commercio di arance, mandarini, albicocche, olive, melograni...</p>
+          <h2 class="gosite"><b></b></h2>
         </div>
       </div>
 
