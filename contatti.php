@@ -78,19 +78,19 @@
             <br><br>
             <form class="form-horizontal" role="form" action="mail.php" method="get">
               <div class="form-group">
-                <label for="inputEmail3" class="col-sm-4 control-label">Nominativo</label>
+                <label for="inputEmail3" class="col-sm-4 control-label">Nominativo:</label>
                 <div class="col-sm-8">
                   <input type="text" class="form-control" placeholder="Nome Cognome">
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputEmail3" class="col-sm-4 control-label">Oggetto</label>
+                <label for="inputEmail3" class="col-sm-4 control-label">Oggetto:</label>
                 <div class="col-sm-8">
                   <input type="text" class="form-control" placeholder="Oggetto dell'email">
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputEmail3" class="col-sm-4 control-label">Email</label>
+                <label for="inputEmail3" class="col-sm-4 control-label">Email:</label>
                 <div class="col-sm-8">
                   <input type="email" class="form-control" id="inputEmail3" placeholder="La tua email">
                 </div>

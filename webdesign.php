@@ -95,7 +95,7 @@
         <div class="col-md-6 animation">
           <h2><img src="images/bootstrap-icon.png" alt="Bootstrap"> Responsive Web Design</h2>
           <p>Grazie al front-end framework <a href="http://getbootstrap.com/">Bootstrap</a> è possibile realizzare siti web totalmente responsive.</p>
-          <p>Le pagine di un sito responsive sono progettate in modo da far adattare automaticamente il layout per fornire una visualizzazione ottimale in funzione dell'ambiente nel quale vengono visualizzate (desktop, tablet, smartphone, etc...).</p>
+          <p>Le pagine di un sito responsive sono progettate in modo da far adattare automaticamente il layout per fornire una visualizzazione ottimale in funzione dell'ambiente nel quale vengono visualizzate (desktop, tablet, smartphone, etc...) e della dimensione corrente della finestra del browser.</p>
         </div>
         <div class="col-md-6 text-right animation">
           <h2><span class="glyphicon glyphicon glyphicon-pencil"></span> Come richiedere un preventivo?</h2>

@@ -84,7 +84,7 @@
               <p>La programmazione per me è stata sempre una grande passione.</p>
               <p>A 16 anni ho messo in piedi un piccolo server privato di <a href="http://it.wikipedia.org/wiki/World_of_Warcraft">World of Warcraft</a> cominciando a lavorare con applicazioni <strong>game-server</strong> open source come <a href="http://it.wikipedia.org/wiki/MaNGOS">MaNGOS</a> e <a href="http://www.trinitycore.org/">TrinityCore</a>.</p>
               <p>A 21 anni mi sono laureato in Informatica riportando la votazione di <strong>105</strong>/110 presso l'Università di Catania.</p>
-              <p>Attualmente sto proseguendo gli studi per ottenere la laurea specialistica in <strong>Sistemi e Sicurezza</strong>, contemporaneamente lavoro come <strong>WebDeveloper</strong> presso <a href="http://www.italiahotspot.it">ItaliaHotSpot</a>.</p>
+              <p>Attualmente sto proseguendo gli studi per ottenere la laurea specialistica in <strong>Sistemi e Sicurezza</strong>, contemporaneamente lavoro come <strong>WebDeveloper</strong> presso l'azienda <a href="http://www.italiahotspot.it">ItaliaHotSpot</a>.</p>
             </div>
           </div>
           <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px; float: left; margin-top: 20px; margin-bottom: 30px;">
@@ -95,6 +95,8 @@
           </span>
         </div>
         <div class="col-md-6 text-left animation">
+          <br class="hidden-lg hidden-md">
+          <br class="hidden-lg hidden-md">
           <h2 align="center">Stefano Borzì</h2>
           <div class="row">
             <div class="col-xs-8 text-left">
