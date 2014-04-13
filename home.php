@@ -21,6 +21,13 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+  
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Carousel libraries -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <script src="js/owl.carousel.js"></script>
   </head>
 
   <body>
@@ -96,7 +103,33 @@
 
       <h1>Lavori in corso...</h1>
 
-      <img src="images/Under_Construction.jpg">
+      <!-- carousel -->
+      <style>
+      #carousel .item img {
+        display: block;
+        height: 435px;
+      }
+      #carousel { width: 600px; }
+      </style>
+      <center>
+      <div id="carousel" class="owl-carousel">
+           <div class="item"><img src="images/carousel/1.jpg"></div>
+          <div class="item"><img src="images/carousel/2.jpg"></div>
+          <div class="item"><img src="images/carousel/3.jpg"></div>
+          <div class="item"><img src="images/carousel/4.jpg"></div>
+      </div>
+      </center>
+      <script type="text/javascript">
+      $(document).ready(function() {
+        $("#carousel").owlCarousel({
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            singleItem:true,
+            autoPlay: true
+        });
+      });
+      </script>
+      <!-- end carousel -->
 
       <h2>Stiamo ristrutturando il nostro sito web, alcune pagine potrebbero non essere visualizzate correttamente.</h2>
 
@@ -108,7 +141,6 @@
 
     </div><!-- /.container -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
