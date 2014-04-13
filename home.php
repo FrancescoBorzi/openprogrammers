@@ -22,12 +22,10 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   
-    <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Carousel libraries -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.css">
-    <script src="js/owl.carousel.js"></script>
+    
   </head>
 
   <body>
@@ -119,16 +117,6 @@
           <div class="item"><img src="images/carousel/4.jpg"></div>
       </div>
       </center>
-      <script type="text/javascript">
-      $(document).ready(function() {
-        $("#carousel").owlCarousel({
-            slideSpeed : 300,
-            paginationSpeed : 400,
-            singleItem:true,
-            autoPlay: true
-        });
-      });
-      </script>
       <!-- end carousel -->
 
       <h2>Stiamo ristrutturando il nostro sito web, alcune pagine potrebbero non essere visualizzate correttamente.</h2>
@@ -141,6 +129,21 @@
 
     </div><!-- /.container -->
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script type="text/javascript">
+    //carousel
+    $(document).ready(function() {
+      $("#carousel").owlCarousel({
+          slideSpeed : 300,
+          paginationSpeed : 400,
+          singleItem:true,
+          autoPlay: true
+      });
+    });
+    </script>
+
   </body>
 </html>
