@@ -118,13 +118,13 @@
         <h2 class="visible-xs featurette-heading">LiberaDiretta</h2>
         <div class="col-sm-5">
           <div class="imgbox">
-            <a target="_blank" href="http://ldtesting.altervista.org/blog/"><img class="img-responsive" src="images/portfolio/liberadiretta.png" alt="LiberaDiretta"></a>
+            <a target="_blank" href="http://liberadiretta.altervista.org/"><img class="img-responsive" src="images/portfolio/liberadiretta.png" alt="LiberaDiretta"></a>
           </div>
         </div>
         <div class="col-xs-7">
           <h2 class="hidden-xs featurette-heading">LiberaDiretta</h2>
           <p class="lead">Un esperimento di comunicazione...</p>
-          <h2 class="gosite"><a target="_blank" href="http://ldtesting.altervista.org/blog/">Vai al sito →</a></h2>
+          <h2 class="gosite"><a target="_blank" href="http://liberadiretta.altervista.org/">Vai al sito →</a></h2>
         </div>
       </div>
 
