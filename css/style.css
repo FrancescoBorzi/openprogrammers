@@ -155,3 +155,10 @@ form {
   0% { -webkit-transform: scale(.01); }
   100% { -webkit-transform: scale(1); }
 }
+
+#carousel .item img {
+  display: block;
+  height: 435px;
+}
+
+#carousel { width: 600px; }

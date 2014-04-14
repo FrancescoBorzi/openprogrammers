@@ -14,6 +14,8 @@
     <title>OpenProgrammers.it</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -21,11 +23,6 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  
-    <!-- Carousel libraries -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
-    
   </head>
 
   <body>
@@ -101,14 +98,6 @@
 
       <h1>Lavori in corso...</h1>
 
-      <!-- carousel -->
-      <style>
-      #carousel .item img {
-        display: block;
-        height: 435px;
-      }
-      #carousel { width: 600px; }
-      </style>
       <center>
       <div id="carousel" class="owl-carousel">
            <div class="item"><img src="images/carousel/1.jpg"></div>
@@ -117,7 +106,6 @@
           <div class="item"><img src="images/carousel/4.jpg"></div>
       </div>
       </center>
-      <!-- end carousel -->
 
       <h2>Stiamo ristrutturando il nostro sito web, alcune pagine potrebbero non essere visualizzate correttamente.</h2>
 
@@ -134,15 +122,15 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script type="text/javascript">
-    //carousel
-    $(document).ready(function() {
-      $("#carousel").owlCarousel({
-          slideSpeed : 300,
-          paginationSpeed : 400,
-          singleItem:true,
-          autoPlay: true
+      //carousel
+      $(document).ready(function() {
+        $("#carousel").owlCarousel({
+            slideSpeed: 300,
+            paginationSpeed: 400,
+            singleItem: true,
+            autoPlay: true
+        });
       });
-    });
     </script>
 
   </body>
