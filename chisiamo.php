@@ -72,7 +72,7 @@
     </div>
 
     <div class="container content">
-      
+
       <div class="row">
         <div class="col-md-6 text-right animation">
           <h2 align="center">Francesco Borzì</h2>
@@ -109,12 +109,12 @@
               <img class="radius" style="" alt="Stefano Borzì" src="images/stefano.png" width="100%">
             </div>
           </div>
-            <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px; float: right; margin-top: 55px;">
-              <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
-            </span>
-            <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px; float: right; margin-top: 55px;">
-              <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
-            </span>
+          <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px; float: right; margin-top: 55px;">
+            <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
+          </span>
+          <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px; float: right; margin-top: 55px;">
+            <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
+          </span>
         </div>
       </div>
       <br>

@@ -1,5 +1,5 @@
 <?php
-  include_once("db_connect.php");
+include_once("db_connect.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -74,19 +74,19 @@
     </div>
 
     <div class="container content text-center">
-      
+
       <?php
-          $query = "SELECT COUNT(*) FROM quotes";
-          $result = mysqli_query($connection, $query);
-          $row = mysqli_fetch_row($result);
+$query = "SELECT COUNT(*) FROM quotes";
+$result = mysqli_query($connection, $query);
+$row = mysqli_fetch_row($result);
 
-          $rand = rand(1, $row[0]);
-          $query = sprintf("SELECT quote, author FROM quotes WHERE id = %d", $rand);
-          $result = mysqli_query($connection, $query);
-          $row = mysqli_fetch_array($result);
+$rand = rand(1, $row[0]);
+$query = sprintf("SELECT quote, author FROM quotes WHERE id = %d", $rand);
+$result = mysqli_query($connection, $query);
+$row = mysqli_fetch_array($result);
 
-          $quote = $row['quote'];
-          $author = $row['author'];
+$quote = $row['quote'];
+$author = $row['author'];
       ?>
 
       <div class="row">
@@ -99,12 +99,12 @@
       <h1>Lavori in corso...</h1>
 
       <center>
-      <div id="carousel" class="owl-carousel">
-           <div class="item"><img src="images/carousel/1.jpg"></div>
+        <div id="carousel" class="owl-carousel">
+          <div class="item"><img src="images/carousel/1.jpg"></div>
           <div class="item"><img src="images/carousel/2.jpg"></div>
           <div class="item"><img src="images/carousel/3.jpg"></div>
           <div class="item"><img src="images/carousel/4.jpg"></div>
-      </div>
+        </div>
       </center>
 
       <h2>Stiamo ristrutturando il nostro sito web, alcune pagine potrebbero non essere visualizzate correttamente.</h2>
@@ -125,10 +125,10 @@
       //carousel
       $(document).ready(function() {
         $("#carousel").owlCarousel({
-            slideSpeed: 300,
-            paginationSpeed: 400,
-            singleItem: true,
-            autoPlay: true
+          slideSpeed: 300,
+          paginationSpeed: 400,
+          singleItem: true,
+          autoPlay: true
         });
       });
     </script>

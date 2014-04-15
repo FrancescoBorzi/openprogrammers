@@ -95,10 +95,10 @@
                   <input type="email" class="form-control" id="inputEmail3" placeholder="La tua email">
                 </div>
               </div><div class="form-group">
-                <label for="inputEmail3" class="col-sm-4 control-label">Messaggio:</label>
-                <div class="col-sm-8">
-                  <textarea name="messaggio" placeholder="Messaggio..." required ></textarea>
-                </div>
+              <label for="inputEmail3" class="col-sm-4 control-label">Messaggio:</label>
+              <div class="col-sm-8">
+                <textarea name="messaggio" placeholder="Messaggio..." required ></textarea>
+              </div>
               </div>
               <div class="form-group">
                 <div class="col-sm-offset-4 col-sm-8">
@@ -125,13 +125,13 @@
             <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px;">
               <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
             </span>
-            
+
             <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px;">
               <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
             </span>
             <br>
-          <span class="glyphicon glyphicon-phone hidden-xs" style="font-size: 25px;"> 3409951314</span>
-          <span class="glyphicon glyphicon-phone visible-xs" style="font-size: 18px;"> 3409951314</span>
+            <span class="glyphicon glyphicon-phone hidden-xs" style="font-size: 25px;"> 3409951314</span>
+            <span class="glyphicon glyphicon-phone visible-xs" style="font-size: 18px;"> 3409951314</span>
 
           </div>
         </div>

@@ -47,9 +47,9 @@ body {
 }
 
 .gosite {
-    text-shadow: 2px 2px 2px 2px #000;
-    text-align: center;
-    color: #4b9ee6;
+  text-shadow: 2px 2px 2px 2px #000;
+  text-align: center;
+  color: #4b9ee6;
 }
 
 .featurette-heading {
@@ -80,32 +80,32 @@ body {
 }
 
 form input {
-    width: 100%;
-    height: 30px;
-    font-size: 20px;
-    color: #4f4f4f;
-    background-color: transparent;
-    border: 1px solid #d0d1d2;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
-    box-shadow: 0 4px 2px -2px #d0d1d2;
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  color: #4f4f4f;
+  background-color: transparent;
+  border: 1px solid #d0d1d2;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0 4px 2px -2px #d0d1d2;
 }
 
 form textarea {
-    text-align: center;
-    width: 100%;
-    height: 200px;
-    font-size: 20px;
-    color: #4f4f4f;
-    resize: none;
-    border: 1px solid #d0d1d2;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
-    box-shadow: 0 4px 2px -2px #d0d1d2;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  font-size: 20px;
+  color: #4f4f4f;
+  resize: none;
+  border: 1px solid #d0d1d2;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0 4px 2px -2px #d0d1d2;
 }
 
 form input[type=submit] { width: 150px; }
@@ -123,12 +123,12 @@ form {
   -ms-transition: all 1.5s ease-in-out;
   transition: all 1.5s ease-in-out;
   animation: scaling 2s;
-  
+
   -moz-animation-name: scaling;
   -moz-animation-iteration-count: once;
   -moz-animation-timing-function: ease-in;
   -moz-animation-duration: 1s;
-  
+
   -webkit-animation-name: scaling;
   -webkit-animation-iteration-count: once;
   -webkit-animation-timing-function: ease-in;
