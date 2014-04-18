@@ -158,7 +158,7 @@ form {
 
 #carousel .item img {
   display: block;
-  height: 435px;
+  height: 320px;
 }
 
-#carousel { width: 600px; }
+#carousel { width: auto; }
