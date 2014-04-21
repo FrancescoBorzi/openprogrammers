@@ -104,10 +104,7 @@
         </div>
       </div>
 
-      <div id="sticky_footer" class="visible-lg">
-        <p class="text-left">&copy; OpenProgrammers</p>
-      </div>
-      <div id="footer" class="hidden-lg">
+      <div id="footer">
         <p class="text-left">&copy; OpenProgrammers</p>
       </div>
     </div><!-- /.container -->
