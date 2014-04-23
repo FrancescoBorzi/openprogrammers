@@ -149,6 +149,7 @@ form {
 #carousel .item img {
   display: block;
   height: 320px;
+  box-shadow: 5px 5px 5px #888;
 }
 
 #carousel { width: auto; }
