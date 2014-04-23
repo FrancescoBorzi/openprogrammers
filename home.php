@@ -97,10 +97,15 @@ $author = $row['author'];
       </div>
 
       <center>
-        <div id="carousel" class="owl-carousel">
+        <div class="carousel owl-carousel hidden-xs">
           <div class="item"><img class="radius" src="images/carousel/1.jpg"></div>
           <div class="item"><img class="radius" src="images/carousel/2.jpg"></div>
           <div class="item"><img class="radius" src="images/carousel/3.jpg"></div>
+        </div>
+        <div class="carousel owl-carousel visible-xs">
+          <div class="item"><img class="radius" src="images/carousel/1.jpg" width="100%"></div>
+          <div class="item"><img class="radius" src="images/carousel/2.jpg" width="100%"></div>
+          <div class="item"><img class="radius" src="images/carousel/3.jpg" width="100%"></div>
         </div>
       </center>
 
@@ -113,7 +118,7 @@ $author = $row['author'];
     <script type="text/javascript">
       //carousel
       $(document).ready(function() {
-        $("#carousel").owlCarousel({
+        $(".carousel").owlCarousel({
           slideSpeed: 300,
           paginationSpeed: 400,
           singleItem: true,
