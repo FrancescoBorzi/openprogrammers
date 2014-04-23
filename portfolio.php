@@ -79,7 +79,25 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette" style="background-color: #ededed;">
+      <div class="row featurette radius" style="background-color: #E8EBD0;">
+        <h2 class="visible-xs featurette-heading">Ormaprofessional</h2>
+        <div class="col-sm-7">
+          <br class="hidden-xs">
+          <br class="hidden-xs">
+          <h2 class="hidden-xs featurette-heading">Ormaprofessional</h2>
+          <p class="lead">Linea cosmetica per cani e gatti, prodotti non testati sugli animali.</p>
+          <h2 class="gosite"><a target="_blank" href="http://www.ormaprofessional.it/">Vai al sito →</a></h2>
+        </div>
+        <div class="col-sm-5">
+          <div class="imgbox">
+            <a target="_blank" href="http://jofrederiks.altervista.org"><img class="img-responsive" src="images/portfolio/ormaprofessional.png" alt="Ormaprofessional"></a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette radius" style="background-color: #ededed;">
         <h2 class="visible-xs featurette-heading">Jo Frederiks</h2>
         <div class="col-sm-5">
           <div class="imgbox">
@@ -97,7 +115,7 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette bg-info">
+      <div class="row featurette radius bg-info">
         <h2 class="visible-xs featurette-heading">Foto e Video Corallo</h2>
         <div class="col-sm-7">
           <br><br>
@@ -114,7 +132,7 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette bg-danger">
+      <div class="row featurette radius bg-danger">
         <h2 class="visible-xs featurette-heading">LiberaDiretta</h2>
         <div class="col-sm-5">
           <div class="imgbox">
@@ -130,7 +148,7 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette bg-warning">
+      <div class="row featurette radius bg-warning">
         <h2 class="visible-xs featurette-heading">Progettazione-interni.org</h2>
         <div class="col-sm-7">
           <h2 class="hidden-xs featurette-heading">Progettazione-interni.org</h2>
@@ -146,7 +164,7 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette bg-success">
+      <div class="row featurette radius bg-success">
         <h2 class="visible-xs featurette-heading">Azienda Agricola</h2>
         <div class="col-sm-5">
           <div class="imgbox">

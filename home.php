@@ -100,7 +100,7 @@ $author = $row['author'];
         <div id="carousel" class="owl-carousel">
           <div class="item"><img class="radius" src="images/carousel/1.jpg"></div>
           <div class="item"><img class="radius" src="images/carousel/2.png"></div>
-          <div class="item"><img class="radiu src="images/carousel/3.jpg"></div>
+          <div class="item"><img class="radius" src="images/carousel/3.jpg"></div>
         </div>
       </center>
 
