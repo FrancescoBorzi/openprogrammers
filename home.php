@@ -96,24 +96,13 @@ $author = $row['author'];
         </blockquote>
       </div>
 
-      <h1>Lavori in corso...</h1>
-
       <center>
         <div id="carousel" class="owl-carousel">
-          <div class="item"><img src="images/carousel/1.jpg"></div>
-          <div class="item"><img src="images/carousel/2.jpg"></div>
-          <div class="item"><img src="images/carousel/3.jpg"></div>
-          <div class="item"><img src="images/carousel/4.jpg"></div>
+          <div class="item"><img class="radius" src="images/carousel/1.jpg"></div>
+          <div class="item"><img class="radius" src="images/carousel/2.png"></div>
+          <div class="item"><img class="radiu src="images/carousel/3.jpg"></div>
         </div>
       </center>
-
-      <h2>Stiamo ristrutturando il nostro sito web, alcune pagine potrebbero non essere visualizzate correttamente.</h2>
-
-      <h2>Potete contattarci all'indirizzo: <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a></h2>
-
-      <div id="footer">
-        <p class="text-left">&copy; OpenProgrammers</p>
-      </div>
 
     </div><!-- /.container -->
 

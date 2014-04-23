@@ -79,7 +79,7 @@
       <br>
 
       <div class="row">
-        <div class="col-md-6 animation">
+        <div class="col-md-6 text-justify animation">
           <h2><img src="images/HTML5.png" alt="HTML5"> Standard HTML5 & CSS3 <img src="images/CSS3.jpg" alt="CSS3"></h2>
           <p>Per noi è importante che le pagine web siano conformi agli standard di <strong>HTML5</strong> e <strong>CSS3</strong>, per sfruttare a pieno le ultime tecnologie che il web mette a disposizione e garantire la massima compatibilità con tutte le versioni più aggiornate dei browsers più diffusi.</p>
           <p>Ci impegnamo affinchè la struttura del nostro codice segua degli <a href="http://mdo.github.io/code-guide/">standard</a> precisi che aiutino a migliorare la leggibilità, l'ordine e quindi anche il mantenimento dello stesso codice.</p>
@@ -92,7 +92,7 @@
       </div>
       <br>
       <div class="row">
-        <div class="col-md-6 animation">
+        <div class="col-md-6 text-justify animation">
           <h2><img src="images/bootstrap-icon.png" alt="Bootstrap"> Responsive Web Design</h2>
           <p>Grazie al front-end framework <a href="http://getbootstrap.com/">Bootstrap</a> è possibile realizzare siti web totalmente responsive.</p>
           <p>Le pagine di un sito responsive sono progettate in modo da far adattare automaticamente il layout per fornire una visualizzazione ottimale in funzione dell'ambiente nel quale vengono visualizzate (desktop, tablet, smartphone, etc...) e della dimensione corrente della finestra del browser.</p>
@@ -104,9 +104,6 @@
         </div>
       </div>
 
-      <div id="footer">
-        <p class="text-left">&copy; OpenProgrammers</p>
-      </div>
     </div><!-- /.container -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

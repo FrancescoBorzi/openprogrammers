@@ -77,7 +77,7 @@
             <div class="col-xs-4">
               <img class="radius" alt="Francesco Borzì" src="images/francesco.png" width="100%">
             </div>
-            <div class="col-xs-8 text-left">
+            <div class="col-xs-8 text-justify">
               <p>La programmazione per me è stata sempre una grande passione.</p>
               <p>A 16 anni ho messo in piedi un piccolo server privato di <a href="http://it.wikipedia.org/wiki/World_of_Warcraft">World of Warcraft</a> cominciando a lavorare con applicazioni <strong>game-server</strong> open source come <a href="http://it.wikipedia.org/wiki/MaNGOS">MaNGOS</a> e <a href="http://www.trinitycore.org/">TrinityCore</a>.</p>
               <p>A 21 anni mi sono laureato in Informatica riportando la votazione di <strong>105</strong>/110 presso l'Università di Catania.</p>
@@ -96,7 +96,7 @@
           <br class="hidden-lg hidden-md">
           <h2 align="center">Stefano Borzì</h2>
           <div class="row">
-            <div class="col-xs-8 text-left">
+            <div class="col-xs-8 text-justify">
               <p>Sono un giovane appassionato di informatica, attualmente frequento il quinto anno del Liceo Scientifico PNI (Piano Nazionale di Informatica).</p>
               <p>La programmazione e la realizzazione di siti web è la mia attività preferita.</p>
               <p>Mi piace stare sempre al passo con la tecnologia apprendendo tutte le nuove tecniche del web in circolazione.</p>
@@ -114,14 +114,7 @@
           </span>
         </div>
       </div>
-      <br>
 
-      <div id="sticky_footer" class="visible-lg">
-        <p class="text-left">&copy; OpenProgrammers</p>
-      </div>
-      <div id="footer" class="hidden-lg">
-        <p class="text-left">&copy; OpenProgrammers</p>
-      </div>
     </div><!-- /.container -->
 
 
