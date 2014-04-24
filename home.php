@@ -109,6 +109,29 @@ $author = $row['author'];
         </div>
       </center>
 
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Realizzazione Siti Web</h2>
+          <p class="text-justify">Realizziamo siti internet di <strong>qualsiasi tipologia</strong>, per aziende, società e privati.</p>
+          <p class="text-justify">Adattiamo le pagine web a <strong>tutti i dispositivi</strong>: smartphone, tablet, desktop, etc... garantendo compatibilità, ottimizzazione della grafica e dei contenuti. </p>
+          <p><a class="btn btn-info" href="webdesign.php" role="button">Maggiori Informazioni &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Sviluppo Software</h2>
+          <h2 class="visible-md" style="margin: 0;">&nbsp;</h2>
+          <p class="text-justify">Ci piace sviluppare software, ma ancor di più ci piace sviluppare <strong>software libero</strong> e contribuire ai grandi progetti open source.</p>
+          <p class="text-justify">Visita i nostri profili su GitHub:</p>
+          <p><a target="_blank" class="btn btn-default" href="https://github.com/ShinDarth" role="button"><img src="images/GitHub-Mark-32px.png" width="20px">&nbsp;Francesco</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" class="btn btn-default" href="https://github.com/Helias" role="button"><img src="images/GitHub-Mark-32px.png" width="20px">&nbsp;Stefano</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Vuoi Contattarci?</h2>
+          <h2 class="visible-md" style="margin: 0;">&nbsp;</h2>
+          <p class="text-justify">Programmare è la nostra passione: qualsiasi siano le tue richieste, saremo felici di ascoltarle per cercare di soddisfare al meglio tutte le tue esigenze.</p>
+          <p class="text-justify">Mandaci un email, ti risponderemo nel più breve tempo possibile.</p>
+          <p><a class="btn btn-success" href="contatti.php" role="button">Contattaci &raquo;</a></p>
+        </div>
+      </div>
+
     </div><!-- /.container -->
 
 
