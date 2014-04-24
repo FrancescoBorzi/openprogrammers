@@ -90,7 +90,7 @@
         </div>
         <div class="col-sm-5">
           <div class="imgbox">
-            <a target="_blank" href="http://jofrederiks.altervista.org"><img class="img-responsive" src="images/portfolio/ormaprofessional.png" alt="Ormaprofessional"></a>
+            <a target="_blank" href="http://www.ormaprofessional.it/"><img class="img-responsive" src="images/portfolio/ormaprofessional.png" alt="Ormaprofessional"></a>
           </div>
         </div>
       </div>
