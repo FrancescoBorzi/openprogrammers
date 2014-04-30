@@ -90,7 +90,7 @@
         </div>
         <div class="col-sm-5">
           <div class="imgbox">
-            <a target="_blank" href="http://jofrederiks.altervista.org"><img class="img-responsive" src="images/portfolio/ormaprofessional.png" alt="Ormaprofessional"></a>
+            <a target="_blank" href="http://www.ormaprofessional.it/"><img class="img-responsive" src="images/portfolio/ormaprofessional.png" alt="Ormaprofessional"></a>
           </div>
         </div>
       </div>
@@ -174,7 +174,7 @@
         <div class="col-sm-7">
           <h2 class="hidden-xs featurette-heading">Azienda Agricola</h2>
           <p class="lead">Commercio di arance, mandarini, albicocche, olive, melograni...</p>
-          <h2 class="gosite"><b></b></h2>
+          <h2 class="gosite"><b>Link non disponibile</b></h2>
         </div>
       </div>
 

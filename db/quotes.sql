@@ -1,11 +1,11 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
+
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
-
 
 DROP TABLE IF EXISTS `quotes`;
 CREATE TABLE IF NOT EXISTS `quotes` (
@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS `quotes` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-TRUNCATE TABLE `quotes`;
+DELETE FROM `quotes`;
 INSERT INTO `quotes` (`id`, `quote`, `author`) VALUES
 (1, 'Parlare è facile. Mostrami il codice.', 'Linus Torvalds'),
 (2, 'Mentre in fisica devi capire come è fatto il mondo, in informatica sei tu a crearlo.', 'Linus Torvalds'),
