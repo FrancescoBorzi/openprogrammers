@@ -112,7 +112,7 @@ form {
   -o-transition: all 1.5s ease-in-out;
   -ms-transition: all 1.5s ease-in-out;
   transition: all 1.5s ease-in-out;
-  animation: scaling 2s;
+  animation: scaling 1s;
 
   -moz-animation-name: scaling;
   -moz-animation-iteration-count: once;
@@ -122,7 +122,7 @@ form {
   -webkit-animation-name: scaling;
   -webkit-animation-iteration-count: once;
   -webkit-animation-timing-function: ease-in;
-  -webkit-animation-duration: 2s; 
+  -webkit-animation-duration: 1s; 
 }
 
 @keyframes scaling {
