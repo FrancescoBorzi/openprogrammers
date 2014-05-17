@@ -12,22 +12,21 @@ body {
 
 .imgbox { padding: 10px; }
 
-.imgbox img {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -webkit-border-radius: 1em;
-  -moz-border-radius: 1em;
-  border-radius: 1em; 
-}
-
-.imgbox img:hover {
+.imgbox img, .imgbox img:hover, .radius, .radius:hover {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+
+.imgbox img {
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em; 
+}
+
+.imgbox img:hover {  
   -webkit-transform: scale(1.02);
   -moz-transform: scale(1.02);
   -o-transform: scale(1.02);
@@ -48,22 +47,12 @@ body {
 }
 
 .radius {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
   border-radius: 1em; 
 }
 
 .radius:hover {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
   -webkit-border-radius: 3em;
   -moz-border-radius: 3em;
   border-radius: 3em;   
