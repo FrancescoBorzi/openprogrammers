@@ -54,7 +54,7 @@ include_once("db_connect.php");
                 <li><a target="_blank" href="https://github.com/Helias"><img class="hidden-xs" src="images/GitHub-Mark-32px.png" width="20px"> Helias</a></li>
               </ul>
             </li>
-            <li><a target="_blank" href="http://shinworld.altervista.org">Blog</a></li>
+            <li><a href="http://shinworld.altervista.org">Blog</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">GNU Linux<b class="caret"></b></a>
               <ul class="dropdown-menu">
