@@ -38,7 +38,7 @@ include_once("db_connect.php");
           </button>
           <a class="hidden-sm navbar-brand" href="home.php">OpenProgrammers.it</a>
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
             <li class="active"><a href="home.php">Home</a></li>
             <li><a href="chisiamo.php">Chi siamo</a></li>
