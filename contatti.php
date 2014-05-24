@@ -33,8 +33,8 @@
           </button>
           <a class="hidden-sm navbar-brand" href="home.php">OpenProgrammers.it</a>
         </div>
-        <div class="collapse navbar-collapse pull-right">
-          <ul class="nav navbar-nav">
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="home.php">Home</a></li>
             <li><a href="chisiamo.php">Chi siamo</a></li>
             <li><a href="webdesign.php">WebDesign</a></li>
