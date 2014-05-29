@@ -1,6 +1,3 @@
-<?php
-include_once("db_connect.php");
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,9 +17,9 @@ include_once("db_connect.php");
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
   </head>
 
   <body>
@@ -40,7 +37,7 @@ include_once("db_connect.php");
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav  navbar-right">
-            <li class="active"><a href="home.php">Home</a></li>
+            <li><a href="home.php">Home</a></li>
             <li><a href="chisiamo.php">Chi siamo</a></li>
             <li><a href="webdesign.php">WebDesign</a></li>
             <li><a href="portfolio.php">Portfolio</a></li>
@@ -76,62 +73,7 @@ include_once("db_connect.php");
 
     <div class="container content text-center">
 
-      <?php
-$query = "SELECT COUNT(*) FROM quotes";
-$result = mysqli_query($connection, $query);
-$row = mysqli_fetch_row($result);
 
-$rand = rand(1, $row[0]);
-$query = sprintf("SELECT quote, author FROM quotes WHERE id = %d", $rand);
-$result = mysqli_query($connection, $query);
-$row = mysqli_fetch_array($result);
-
-$quote = $row['quote'];
-$author = $row['author'];
-      ?>
-
-      <div class="row">
-        <blockquote class="pull-right">
-          <p><?= $quote ?></p>
-          <small><?= $author ?></small>
-        </blockquote>
-      </div>
-
-      <center>
-        <div class="carousel owl-carousel hidden-xs">
-          <div class="item"><img class="radius" src="images/carousel/1.jpg"></div>
-          <div class="item"><img class="radius" src="images/carousel/2.jpg"></div>
-          <div class="item"><img class="radius" src="images/carousel/3.jpg"></div>
-        </div>
-        <div class="carousel owl-carousel visible-xs">
-          <div class="item"><img class="radius" src="images/carousel/1.jpg" width="100%"></div>
-          <div class="item"><img class="radius" src="images/carousel/2.jpg" width="100%"></div>
-          <div class="item"><img class="radius" src="images/carousel/3.jpg" width="100%"></div>
-        </div>
-      </center>
-
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Realizzazione Siti Web</h2>
-          <p class="text-justify">Realizziamo siti internet di <strong>qualsiasi tipologia</strong>, per aziende, società e privati.</p>
-          <p class="text-justify">Adattiamo le pagine web a <strong>tutti i dispositivi</strong>: smartphone, tablet, desktop, etc... garantendo compatibilità, ottimizzazione della grafica e dei contenuti. </p>
-          <p><a class="btn btn-info" href="webdesign.php" role="button">Maggiori Informazioni &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Sviluppo Software</h2>
-          <h2 class="visible-md" style="margin: 0;">&nbsp;</h2>
-          <p class="text-justify">Ci piace sviluppare software, ma ancor di più ci piace sviluppare <strong>software libero</strong> e contribuire ai grandi progetti open source.</p>
-          <p class="text-justify">Visita i nostri profili su GitHub:</p>
-          <p><a target="_blank" class="btn btn-default" href="https://github.com/ShinDarth" role="button"><img src="images/GitHub-Mark-32px.png" width="20px">&nbsp;Francesco</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" class="btn btn-default" href="https://github.com/Helias" role="button"><img src="images/GitHub-Mark-32px.png" width="20px">&nbsp;Stefano</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Vuoi Contattarci?</h2>
-          <h2 class="visible-md" style="margin: 0;">&nbsp;</h2>
-          <p class="text-justify">Programmare è la nostra passione: qualsiasi siano le tue richieste, saremo felici di ascoltarle per cercare di soddisfare al meglio tutte le tue esigenze.</p>
-          <p class="text-justify">Mandaci un email, ti risponderemo nel più breve tempo possibile.</p>
-          <p><a class="btn btn-success" href="contatti.php" role="button">Contattaci &raquo;</a></p>
-        </div>
-      </div>
 
     </div><!-- /.container -->
 
