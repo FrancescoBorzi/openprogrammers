@@ -69,7 +69,6 @@
             <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
           </span>
           <br><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs">
-          <hr>
           <p class="h4 text-center">Il mio lavoro con ItaliaHotSpot</p>
           <p class="text-left">Offriamo dei servizi di navigazione in internet via wireless ad attività commerciali.<br><br>Diamo la possibilità ad alberghi, bar e attività di ogni genere di concedere alla propria clientela la possibilità di connettersi alla rete wifi effettuando l'accesso tramite Facebook.<br><br>I clienti si collegano alla rete mettendo il "mi piace" alla pagina Facebook dell'attività commerciale, e condividono automaticamente un link che la pubblicizza.</p>
           <p class="h4 text-center">Per maggiori informazioni:</p>
