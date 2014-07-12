@@ -65,10 +65,10 @@
           <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px; float: left; margin-top: 20px; margin-bottom: 30px;">
             <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
           </span>
-          <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px; float: left; margin-top: 20px; margin-bottom: 30px;">
+          <span class="text-center glyphicon glyphicon-envelope visible-xs" style="font-size: 18px; margin-top: 20px; margin-bottom: 30px;">
             <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
           </span>
-          <br><br><br><br>
+          <br><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs">
           <p class="h4 text-center">Il mio lavoro con ItaliaHotSpot</p>
           <p class="text-left">Offriamo dei servizi di navigazione in internet via wireless ad attività commerciali.<br><br>Diamo la possibilità ad alberghi, bar e attività di ogni genere di concedere alla propria clientela la possibilità di connettersi alla rete wifi effettuando l'accesso tramite Facebook.<br><br>I clienti si collegano alla rete mettendo il "mi piace" alla pagina Facebook dell'attività commerciale, e condividono automaticamente un link che la pubblicizza.</p>
           <p class="h4 text-center">Per maggiori informazioni: <a href="http://www.wifi-social.it">www.wifi-social.it</a></a></p>
@@ -91,10 +91,10 @@
       <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px; float: right; margin-top: 55px;">
         <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
       </span>
-      <span class="glyphicon glyphicon-envelope visible-xs" style="font-size: 18px; float: right; margin-top: 55px;">
+      <span class="text-center glyphicon glyphicon-envelope visible-xs" style="font-size: 18px; margin-top: 20px;">
         <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
       </span>
-      <br><br><br><br><br><br>
+      <br><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs">
       <p class="text-center h4">L'ultima puntata che abbiamo realizzato con LiberaDiretta</p>
       <div id="ldnews"></div>
       <script type="text/javascript">
