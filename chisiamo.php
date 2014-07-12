@@ -15,9 +15,9 @@
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
   </head>
 
   <body>
@@ -69,67 +69,69 @@
             <a href="mailto:borzifrancesco@gmail.com">borzifrancesco@gmail.com</a>
           </span>
           <br><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs">
+          <hr>
           <p class="h4 text-center">Il mio lavoro con ItaliaHotSpot</p>
           <p class="text-left">Offriamo dei servizi di navigazione in internet via wireless ad attività commerciali.<br><br>Diamo la possibilità ad alberghi, bar e attività di ogni genere di concedere alla propria clientela la possibilità di connettersi alla rete wifi effettuando l'accesso tramite Facebook.<br><br>I clienti si collegano alla rete mettendo il "mi piace" alla pagina Facebook dell'attività commerciale, e condividono automaticamente un link che la pubblicizza.</p>
-          <p class="h4 text-center">Per maggiori informazioni: <a href="http://www.wifi-social.it">www.wifi-social.it</a></a></p>
-    </div>
-    <div class="col-md-6 text-left animation">
-      <br class="hidden-lg hidden-md">
-      <br class="hidden-lg hidden-md">
-      <h2 align="center">Stefano Borzì</h2>
-      <div class="row">
-        <div class="col-xs-8 text-justify">
-          <p>Sono un giovane appassionato di informatica, attualmente frequento il quinto anno del Liceo Scientifico PNI (Piano Nazionale di Informatica).</p>
-          <p>La programmazione e la realizzazione di siti web è la mia attività preferita.</p>
-          <p>Mi piace stare sempre al passo con la tecnologia apprendendo tutte le nuove tecniche del web in circolazione.</p>
-          <p>Sono il responsabile tecnico informatico del progetto <a href="http://youtube.com/salvocd">LiberaDiretta</a> di cui gestisco il sito web.</p>
+          <p class="h4 text-center">Per maggiori informazioni:</p>
+          <p class="h4 text-center"><a href="http://www.wifi-social.it">www.wifi-social.it</a></p>
         </div>
-        <div class="col-xs-4">
-          <img class="radius" style="" alt="Stefano Borzì" src="images/stefano.png" width="100%">
+        <div class="col-md-6 text-left animation">
+          <br class="hidden-lg hidden-md">
+          <br class="hidden-lg hidden-md">
+          <h2 align="center">Stefano Borzì</h2>
+          <div class="row">
+            <div class="col-xs-8 text-justify">
+              <p>Sono un giovane appassionato di informatica, attualmente frequento il quinto anno del Liceo Scientifico PNI (Piano Nazionale di Informatica).</p>
+              <p>La programmazione e la realizzazione di siti web è la mia attività preferita.</p>
+              <p>Mi piace stare sempre al passo con la tecnologia apprendendo tutte le nuove tecniche del web in circolazione.</p>
+              <p>Sono il responsabile tecnico informatico del progetto <a href="http://youtube.com/salvocd">LiberaDiretta</a> di cui gestisco il sito web.</p>
+            </div>
+            <div class="col-xs-4">
+              <img class="radius" style="" alt="Stefano Borzì" src="images/stefano.png" width="100%">
+            </div>
+          </div>
+          <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px; float: right; margin-top: 55px;">
+            <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
+          </span>
+          <span class="text-center glyphicon glyphicon-envelope visible-xs" style="font-size: 18px; margin-top: 20px;">
+            <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
+          </span>
+          <br><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs">
+          <p class="text-center h4">L'ultima puntata che abbiamo realizzato con LiberaDiretta</p>
+          <div id="ldnews"></div>
+          <script type="text/javascript">
+            var gdata = document.createElement("script");
+            gdata.src = "https://gdata.youtube.com/feeds/api/users/salvocd/uploads?v=2&alt=json&callback=getdata";
+            var head = document.getElementsByTagName("head")[0];
+            head.appendChild(gdata);
+            var getdata= function(info)
+            {
+              var i=0;
+              var T = info.feed.entry[i].title["$t"];
+              while(T.indexOf("LIBERA DIRETTA") == -1){ i++; T = info.feed.entry[i].title["$t"]; }
+              var video_id = info.feed.entry[i].media$group.yt$videoid.$t;
+              //var Duration = info.feed.entry[i].media$group.media$content[0].duration;
+              var imgsrc = info.feed.entry[i].media$group.media$thumbnail[2].url;
+              var d = document.createElement("div");
+              d.style.width="265px";
+              d.style.height="200px";
+              d.style.borderTop='2px dashed #c1c1c1';
+              if(i == 2) { d.style.borderBottom='2px dashed #c1c1c1'; }
+              d.style.padding='10px';
+              d.innerHTML = '<a href="https://www.youtube.com/watch?v='+video_id+'"><img style="padding-bottom: 10px;" width="100%" height="180" src="'+imgsrc+'"/></a>';
+              d.innerHTML += '<br/><a href="https://www.youtube.com/watch?v='+video_id+'"><b>'+T.replace("LIBERA DIRETTA", "")+'</b></a>';
+              d.style.textAlign="center";
+              document.getElementById("ldnews").appendChild(d);
+              d.style.margin="auto";
+            };
+          </script>
         </div>
       </div>
-      <span class="glyphicon glyphicon-envelope hidden-xs" style="font-size: 25px; float: right; margin-top: 55px;">
-        <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
-      </span>
-      <span class="text-center glyphicon glyphicon-envelope visible-xs" style="font-size: 18px; margin-top: 20px;">
-        <a href="mailto:stefanoborzi32@gmail.com">stefanoborzi32@gmail.com</a>
-      </span>
-      <br><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs"><br class="hidden-xs">
-      <p class="text-center h4">L'ultima puntata che abbiamo realizzato con LiberaDiretta</p>
-      <div id="ldnews"></div>
-      <script type="text/javascript">
-        var gdata = document.createElement("script");
-        gdata.src = "https://gdata.youtube.com/feeds/api/users/salvocd/uploads?v=2&alt=json&callback=getdata";
-        var head = document.getElementsByTagName("head")[0];
-        head.appendChild(gdata);
-        var getdata= function(info)
-        {
-          var i=0;
-          var T = info.feed.entry[i].title["$t"];
-          while(T.indexOf("LIBERA DIRETTA") == -1){ i++; T = info.feed.entry[i].title["$t"]; }
-          var video_id = info.feed.entry[i].media$group.yt$videoid.$t;
-          //var Duration = info.feed.entry[i].media$group.media$content[0].duration;
-          var imgsrc = info.feed.entry[i].media$group.media$thumbnail[2].url;
-          var d = document.createElement("div");
-          d.style.width="265px";
-          d.style.height="200px";
-          d.style.borderTop='2px dashed #c1c1c1';
-          if(i == 2) { d.style.borderBottom='2px dashed #c1c1c1'; }
-          d.style.padding='10px';
-          d.innerHTML = '<a href="https://www.youtube.com/watch?v='+video_id+'"><img style="padding-bottom: 10px;" width="100%" height="180" src="'+imgsrc+'"/></a>';
-          d.innerHTML += '<br/><a href="https://www.youtube.com/watch?v='+video_id+'"><b>'+T.replace("LIBERA DIRETTA", "")+'</b></a>';
-          d.style.textAlign="center";
-          document.getElementById("ldnews").appendChild(d);
-          d.style.margin="auto";
-        };
-      </script>
-    </div>
-    </div>
 
-  </div><!-- /.container -->
+    </div><!-- /.container -->
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
