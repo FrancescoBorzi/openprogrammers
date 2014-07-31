@@ -54,7 +54,7 @@
           <p class="text-left lead">Ecco alcuni dei siti web che abbiamo realizzato...</p>
         </div>
       </div>
-
+<!--
       <hr class="featurette-divider">
 
       <div class="row featurette radius" style="background-color: #E8EBD0;">
@@ -72,6 +72,7 @@
           </div>
         </div>
       </div>
+-->
 
       <hr class="featurette-divider">
 
