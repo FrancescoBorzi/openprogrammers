@@ -8,13 +8,6 @@
     <li><a target="_blank" href="https://github.com/Helias"><img class="hidden-xs" src="images/GitHub-Mark-32px.png" width="20px"> Helias</a></li>
   </ul>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Progetti<b class="caret"></b></a>
-  <ul class="dropdown-menu">
-    <li><a href="http://shinworld.altervista.org/wordpress/guida-sql-injection/">SQL Injection</a></li>
-    <li><a href="http://shinworld.altervista.org/CSS3_Cool_Effects/home.php">CSS3 Cool Effects</a></li>
-  </ul>
-</li>
 <li><a href="http://shinworld.altervista.org">Blog</a></li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown">GNU Linux<b class="caret"></b></a>
