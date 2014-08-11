@@ -58,28 +58,39 @@ body {
   border-radius: 3em;   
 }
 
-.projectsrow {
-  height: 375px;
+.projectsdiv {
+  height: 400px;
 }
 
 .projects {
-  margin-right: 35px;
+  margin: auto;
   border: 10px solid #ededed;
   padding: 10px 0px 0px 0px;
-  height: 235px;
   width: 100%;
-  overflow: hidden;
-  opacity: 0.5;
-}
-
-.projects:hover {
-  height: 300px;
-  opacity: 1; 
+  max-width: 340px;
 }
 
 .projects div {
   width: 100%;
   height: 100%;
+}
+
+@media (min-width:801px) {
+  .projects {
+    margin-right: 35px;
+    overflow: hidden;
+    height: 235px;
+    opacity: 0.5;
+  }
+  
+  .projects:hover {
+    height: 300px;
+    opacity: 1; 
+  }
+
+  .projectsdiv {
+    height: 350px;
+  }
 }
 
 form input {

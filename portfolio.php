@@ -15,9 +15,9 @@
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
 
   <body>
@@ -37,7 +37,7 @@
             <li><a href="home.php">Home</a></li>
             <li><a href="chisiamo.php">Chi siamo</a></li>
             <li><a href="webdesign.php">WebDesign</a></li>
-            <li class="active"><a href="portfolio.php#sitiweb">Portfolio</a></li>
+            <li class="active"><a href="portfolio.php">Portfolio</a></li>
             <?php include_once("links.php") ?>
             <li><a href="contatti.php">Contatti</a></li>
           </ul>
@@ -45,7 +45,7 @@
       </div>
     </div>
 
-    <div class="container content text-center panel">
+    <div class="container content text-center">
 
       <div class="row">
         <div class="col-sm-12">
@@ -63,7 +63,7 @@
 
         <div class="row featurette radius" style="background-color: #E8EBD0;">
           <h2 class="visible-xs featurette-heading">Ormaprofessional</h2>
-          <div class="col-sm-7">
+            <div class="col-sm-7">
             <br class="hidden-xs">
             <br class="hidden-xs">
             <h2 class="hidden-xs featurette-heading">Ormaprofessional</h2>
@@ -71,11 +71,12 @@
             <h2 class="gosite"><a target="_blank" href="http://www.ormaprofessional.it/">Vai al sito →</a></h2>
           </div>
           <div class="col-sm-5">
-          <div class="imgbox">
+            <div class="imgbox">
             <a target="_blank" href="http://www.ormaprofessional.it/"><img class="img-responsive" src="images/portfolio/ormaprofessional.png" alt="Ormaprofessional"></a>
+            </div>
           </div>
         </div>
--->
+        -->
 
         <hr class="featurette-divider">
 
@@ -170,86 +171,92 @@
 
         <div class="row projectsrow">
 
-          <div class="col-xs-4">
-            <h2>Minimum Spanning Tree</h2>
-            <div class="projects text-center">
-              <img src="http://shinworld.altervista.org/images/mst-demo.png" alt="Minimum Spanning Tree Algorithm" width="100%" height="191">
-              <br><br>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="projectsdiv">
+              <h2>Minimum Spanning Tree</h2>
+              <div class="projects">
+                <img src="http://shinworld.altervista.org/images/mst-demo.png" alt="Minimum Spanning Tree Algorithm" width="100%" height="191">
+                <br><br>
                 <a target="_blank" href="http://shinworld.altervista.org/wordpress/mst-demo/" class="btn btn-success btn-lg">Minimum Spanning Tree</a>
                 <a target="_blank" href="http://shinworld.altervista.org/mst-demo/" target="_blank" class="btn btn-primary btn-lg">Demo</a>
+              </div>
             </div>
           </div>
 
-          <div class="col-xs-4">
-            <h2>CSS3 Cool Effects</h2>
-            <div class="projects text-center">
-              <img src="http://s7.postimg.org/bejbbdk4r/CSS3_Cool_Effects.png" alt="CSS3 Cool Effects" width="100%" height="191">
-              <br><br>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="projectsdiv">
+              <h2>CSS3 Cool Effects</h2>
+              <div class="projects">
+                <img src="http://s7.postimg.org/bejbbdk4r/CSS3_Cool_Effects.png" alt="CSS3 Cool Effects" width="100%" height="191">
+                <br><br>
                 <a target="_blank" href="http://css3.openprogrammers.it" target="_blank" class="btn btn-primary btn-lg">CSS3 Cool Effects</a>
+              </div>
             </div>
           </div>
 
-          <div class="col-xs-4">
-            <h2>SQL Injection</h2>
-            <div class="projects text-center">
-              <img src="http://s30.postimg.org/r3i3a6fgh/Tris.jpg" alt="SQL Injection">
-              <br><br>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="projectsdiv">
+              <h2>SQL Injection</h2>
+              <div class="projects">
+                <img src="http://s30.postimg.org/r3i3a6fgh/Tris.jpg" alt="SQL Injection">
+                <br><br>
                 <a target="_blank" href="http://shinworld.altervista.org/wordpress/guida-sql-injection/" class="btn btn-success btn-lg">Guida SQL Injection</a>
                 <a target="_blank" href="http://sqlidemo.altervista.org/" target="_blank" class="btn btn-primary btn-lg">Demo</a>
+              </div>
             </div>
           </div>
-
-        </div>
-        
-        <div class="row projectsrow">
-
-          <div class="col-xs-4">
-            <h2>PvPStats</h2>
-            <div class="projects text-center">
-              <img src="http://shinworld.altervista.org/images/HTI.png" alt="PvPStats" width="100%" height="191">
-              <br><br>
+          <!--
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="projectsdiv">
+              <h2>PvPStats</h2>
+              <div class="projects">
+                <img src="http://shinworld.altervista.org/images/HTI.png" alt="PvPStats" width="100%" height="191">
+                <br><br>
                 <a taget="_blank" href="https://github.com/ShinDarth/PvPstats" class="btn btn-success btn-lg">PvPStats</a>
                 <a target="_blank" href="http://shinworld.altervista.org/pvpstats/" class="btn btn-primary btn-lg">Demo</a>
+              </div>
             </div>
           </div>
-
-          <div class="col-xs-4">
-            <h2>Hunting The Invaders</h2>
-            <div class="projects text-center">
-              <img src="http://shinworld.altervista.org/images/HTI.png" alt="Hunting The Invaders" width="100%" height="191">
-              <br><br>
+          -->
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="projectsdiv">
+              <h2>Hunting The Invaders</h2>
+              <div class="projects">
+                <img src="http://shinworld.altervista.org/images/HTI.png" alt="Hunting The Invaders" width="100%" height="191">
+                <br><br>
                 <a target="_blank" href="http://shinworld.altervista.org/wordpress/hunting-the-invaders/" class="btn btn-success btn-lg">Hunting The Invaders</a>
                 <a target="_blank" href="http://shinworld.altervista.org/downloads/HuntingTheInvaders/Game.html" class="btn btn-primary btn-lg">Demo</a>
+              </div>
             </div>
           </div>
 
-          <div class="col-xs-4">
-            <h2>Tris in java</h2>
-            <div class="projects text-center">
-              <img src="http://s30.postimg.org/r3i3a6fgh/Tris.jpg" alt="Tris in Java">
-              <br><br>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="projectsdiv">
+              <h2>Tris in java</h2>
+              <div class="projects">
+                <img src="http://s30.postimg.org/r3i3a6fgh/Tris.jpg" alt="Tris in Java">
+                <br><br>
                 <a target="_blank" href="http://shinworld.altervista.org/wordpress/tris-in-java/" class="btn btn-success btn-lg">Tris in Java</a>
                 <a target="_blank" href="http://shinworld.altervista.org/downloads/Tris.jar" class="btn btn-primary btn-lg">Download</a>
+              </div>
             </div>
           </div>
-
-        </div>
-        
-        <div class="row projectsrow">
-
-          <div class="col-xs-4">
-            <h2>UltraPixel</h2>
-            <div class="projects text-center">
-              <img src="https://i.ytimg.com/vi/lwTr-qDy45o/hqdefault.jpg" alt="UltraPixel" width="100%" height="191">
-              <br><br>
+          <!--
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="projectsdiv">
+              <h2>UltraPixel</h2>
+              <div class="projects">
+                <img src="https://i.ytimg.com/vi/lwTr-qDy45o/hqdefault.jpg" alt="UltraPixel" width="100%" height="191">
+                <br><br>
                 <a target="_blank" href="http://shinworld.altervista.org/wordpress/ultrapixel-theme-for-wordpress/" class="btn btn-success btn-lg">UltraPixel</a>
                 <a target="_blank" href="http://uporangejuice.altervista.org/" class="btn btn-primary btn-lg">Demo</a>
+              </div>
             </div>
           </div>
-
+          -->
         </div>
-
       </div>
+
     </div><!-- /.container -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
