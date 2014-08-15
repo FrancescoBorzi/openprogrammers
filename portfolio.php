@@ -174,6 +174,7 @@
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
               <h2>Minimum Spanning Tree</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <div class="projects">
                 <img src="http://shinworld.altervista.org/images/mst-demo.png" alt="Minimum Spanning Tree Algorithm" width="100%" height="191">
                 <br><br>
@@ -186,6 +187,7 @@
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
               <h2>CSS3 Cool Effects</h2>
+              <p>CSS3 Cool Effects è un sito che raccoglie tutti gli effetti CSS3 ideati e programmati da OpenProgrammers</p>
               <div class="projects">
                 <img src="http://s7.postimg.org/bejbbdk4r/CSS3_Cool_Effects.png" alt="CSS3 Cool Effects" width="100%" height="191">
                 <br><br>
@@ -197,6 +199,7 @@
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
               <h2>SQL Injection</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <div class="projects">
                 <img src="http://s30.postimg.org/r3i3a6fgh/Tris.jpg" alt="SQL Injection">
                 <br><br>
@@ -209,6 +212,7 @@
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
               <h2>PvPStats</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <div class="projects">
                 <img src="http://shinworld.altervista.org/images/HTI.png" alt="PvPStats" width="100%" height="191">
                 <br><br>
@@ -221,6 +225,7 @@
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
               <h2>Hunting The Invaders</h2>
+              <p>Hunting The Invaders è un gioco ideato e programmato (in Javascript) interamente da OpenProgrammers</p>
               <div class="projects">
                 <img src="http://shinworld.altervista.org/images/HTI.png" alt="Hunting The Invaders" width="100%" height="191">
                 <br><br>
@@ -233,6 +238,7 @@
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
               <h2>Tris in java</h2>
+              <p>Questo è il famoso gioco <a href="http://it.wikipedia.org/wiki/Tic-tac-toe">Tic Tac Toe</a>, meglio conosciuto come Tris, programmato in Java con un' "Intelligenza Artificiale" imbattibile!</p>
               <div class="projects">
                 <img src="http://s30.postimg.org/r3i3a6fgh/Tris.jpg" alt="Tris in Java">
                 <br><br>
@@ -245,6 +251,7 @@
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
               <h2>UltraPixel</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <div class="projects">
                 <img src="https://i.ytimg.com/vi/lwTr-qDy45o/hqdefault.jpg" alt="UltraPixel" width="100%" height="191">
                 <br><br>
