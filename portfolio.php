@@ -51,8 +51,7 @@
         <div class="col-sm-12">
           <h1 class="text-left">Portfolio</h1>
           <p class="text-left">
-            <button id="btn-sitiweb" type="submit" class="btn btn-primary btn-lg">Siti Web</button>
-            <button id="btn-progetti" type="submit" class="btn btn-primary btn-lg">Progetti</button>
+            <button id="btn-sitiweb" type="submit" class="btn btn-lg">Siti Web</button><button id="btn-progetti" type="submit" class="btn btn-lg">Progetti</button>
           </p>
         </div>      
       </div>
@@ -273,10 +272,14 @@
         $("#btn-sitiweb").click(function(){
           $("#progetti").fadeOut(1000);
           $("#sitiweb").delay(1000).fadeIn(1000);
+          $("#btn-sitiweb").css("border-left", "4px solid #ededed");
+          $("#btn-progetti").css("border-right", "0px");
         });
         $("#btn-progetti").click(function(){
           $("#sitiweb").fadeOut(1000);
           $("#progetti").delay(1000).fadeIn(1000);
+          $("#btn-progetti").css("border-right", "4px solid #ededed");
+          $("#btn-sitiweb").css("border-left", "0px");
         });
       });
     </script>

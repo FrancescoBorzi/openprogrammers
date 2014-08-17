@@ -69,6 +69,24 @@ body {
   border-radius: 3em;   
 }
 
+#btn-sitiweb, #btn-progetti {
+  border-bottom: 2px solid #ededed;
+  border-radius: 0em;
+  background: transparent;
+  padding: 18px 28px;
+  font-size: 22px;
+}
+
+#btn-sitiweb:hover, #btn-progetti:hover {
+  border: 2px solid #ededed;
+}
+
+#btn-sitiweb {
+  border-right: 3px solid #ededed;
+  border-left: 4px solid #ededed;
+}
+#btn-progetti { border-left: 3px solid #ededed; }
+
 .projectsdiv {
   height: 480px;
 }
