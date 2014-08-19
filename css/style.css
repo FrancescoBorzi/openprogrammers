@@ -98,6 +98,7 @@ body {
   padding: 10px 0px 0px 0px;
   width: 100%;
   max-width: 340px;
+  padding-bottom: 10px;
 }
 
 .projects div {
@@ -105,12 +106,19 @@ body {
   height: 100%;
 }
 
+.projectimg {
+  max-height: 180px;
+  overflow: hidden;
+}
+.projectimg img { margin: auto; }
+
 @media (min-width:801px) {
   .projects {
     margin-right: 35px;
     overflow: hidden;
     height: 235px;
     opacity: 0.5;
+    padding-bottom: 0px;
   }
   
   .projects:hover {
