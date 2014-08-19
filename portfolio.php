@@ -270,16 +270,30 @@
     <script type="text/javascript">
       $(document).ready(function(){
         $("#btn-sitiweb").click(function(){
+          $("#btn-sitiweb").css("border-bottom", "2px solid white");
+          $("#btn-progetti").css("border-bottom", "4px solid #ededed");
+          $("#btn-progetti").css("background-color", "#eee");
+          $("#btn-sitiweb").css("background-color", "transparent");
+          $("#sitiweb").css("border-top", "2px solid white");
           $("#progetti").fadeOut(1000);
           $("#sitiweb").delay(1000).fadeIn(1000);
-          $("#btn-sitiweb").css("border-left", "4px solid #ededed");
-          $("#btn-progetti").css("border-right", "0px");
+          $('#sitiweb').delay().queue( function(next){
+              $(this).css('border-top','2px solid #eee');
+              next();
+            });
         });
         $("#btn-progetti").click(function(){
+          $("#btn-progetti").css("border-bottom", "2px solid white");
+          $("#btn-sitiweb").css("border-bottom", "4px solid #ededed");
+          $("#btn-progetti").css("background-color", "transparent");
+          $("#btn-sitiweb").css("background-color", "#eee");
+          $("#progetti").css("border-top", "2px solid white");
           $("#sitiweb").fadeOut(1000);
           $("#progetti").delay(1000).fadeIn(1000);
-          $("#btn-progetti").css("border-right", "4px solid #ededed");
-          $("#btn-sitiweb").css("border-left", "0px");
+          $('#progetti').delay().queue(function(next){
+              $(this).css('border-top','2px solid #eee');
+              next();
+            });
         });
       });
     </script>

@@ -23,7 +23,7 @@ body {
 
 .imgbox { padding: 10px; }
 
-.imgbox img, .imgbox img:hover, .radius, .radius:hover, .projects, .projects:hover {
+.imgbox img, .imgbox img:hover, .radius, .radius:hover, .projects, .projects:hover, #btn-progetti, #btn-sitiweb {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -70,22 +70,23 @@ body {
 }
 
 #btn-sitiweb, #btn-progetti {
-  border-bottom: 2px solid #ededed;
   border-radius: 0em;
+  border: 2px solid #ededed;
   background: transparent;
   padding: 18px 28px;
   font-size: 22px;
+  z-index: 1;
 }
 
-#btn-sitiweb:hover, #btn-progetti:hover {
+#btn-sitiweb { border-bottom: 3px solid white; }
+#btn-progetti { background-color: #eee; }
+
+#sitiweb, #progetti {
   border: 2px solid #ededed;
+  padding: 20px;
+  margin-top: -13px;
+  z-index: -1;
 }
-
-#btn-sitiweb {
-  border-right: 3px solid #ededed;
-  border-left: 4px solid #ededed;
-}
-#btn-progetti { border-left: 3px solid #ededed; }
 
 .projectsdiv {
   height: 480px;
