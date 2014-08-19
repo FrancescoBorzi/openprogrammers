@@ -89,21 +89,20 @@ body {
 }
 
 .projectsdiv {
-  height: 480px;
+  height: 510px;
 }
 
 .projects {
   margin: auto;
   border: 10px solid #ededed;
-  padding: 10px 0px 0px 0px;
+  padding: 30px 0px 0px 0px;
   width: 100%;
   max-width: 340px;
-  padding-bottom: 10px;
+  height: 325px;;
 }
 
 .projects div {
   width: 100%;
-  height: 100%;
 }
 
 .projectimg {
@@ -111,6 +110,8 @@ body {
   overflow: hidden;
 }
 .projectimg img { margin: auto; }
+
+.projecttext { height: 145px; }
 
 @media (min-width:801px) {
   .projects {
@@ -122,12 +123,12 @@ body {
   }
   
   .projects:hover {
-    height: 300px;
+    height: 325px;
     opacity: 1; 
   }
 
   .projectsdiv {
-    height: 400px;
+    height: 510px;
   }
 }
 

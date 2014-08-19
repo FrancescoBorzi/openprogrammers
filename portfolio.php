@@ -172,23 +172,34 @@
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
-              <h2>Minimum Spanning Tree</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="projecttext">
+                <h2>Minimum Spanning Tree</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
               <div class="projects">
                 <div class="projectimg">
                   <img class="img-responsive" src="http://shinworld.altervista.org/images/mst-demo.png" alt="Minimum Spanning Tree Algorithm">
                 </div>
-                <br><br>
-                <a target="_blank" href="http://shinworld.altervista.org/wordpress/mst-demo/" class="btn btn-success btn-lg">Minimum Spanning Tree</a>
-                <a target="_blank" href="http://shinworld.altervista.org/mst-demo/" target="_blank" class="btn btn-primary btn-lg">Demo</a>
+                <br><br><br class="hidden-md hidden-sm">
+                <div class="hidden-md hidden-sm">
+                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/mst-demo/" class="btn btn-success btn-lg">Minimum Spanning Tree</a>
+                  <a target="_blank" href="http://shinworld.altervista.org/mst-demo/" target="_blank" class="btn btn-primary btn-lg">Demo</a>
+                </div>
+                <div class="visible-md visible-sm">
+                  <br><br><br>
+                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/mst-demo/" class="btn btn-success">Minimum Spanning Tree</a>
+                  <a target="_blank" href="http://shinworld.altervista.org/mst-demo/" target="_blank" class="btn btn-primary">Demo</a>            
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
-              <h2>CSS3 Cool Effects</h2>
-              <p>CSS3 Cool Effects è un sito che raccoglie tutti gli effetti CSS3 ideati e programmati da OpenProgrammers</p>
+              <div class="projecttext">
+                <h2>CSS3 Cool Effects</h2>
+                <p>CSS3 Cool Effects è un sito che raccoglie tutti gli effetti CSS3 ideati e programmati da OpenProgrammers</p>
+              </div>
               <div class="projects">
                 <div class="projectimg">
                   <img class="img-responsive" src="http://s7.postimg.org/bejbbdk4r/CSS3_Cool_Effects.png" alt="CSS3 Cool Effects">
@@ -201,27 +212,44 @@
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
-              <h2>SQL Injection</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="projecttext">
+                <h2>SQL Injection</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
               <div class="projects">
                 <img class="img-responsive" src="images/portfolio/sqlidemo.png" alt="SQL Injection">
                 <br><br>
-                <a target="_blank" href="http://shinworld.altervista.org/wordpress/guida-sql-injection/" class="btn btn-success btn-lg">Guida SQL Injection</a>
-                <a target="_blank" href="http://sqlidemo.altervista.org/" target="_blank" class="btn btn-primary btn-lg">Demo</a>
+                <div class="hidden-md">
+                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/guida-sql-injection/" class="btn btn-success btn-lg">Guida SQL Injection</a>
+                  <a target="_blank" href="http://sqlidemo.altervista.org/" target="_blank" class="btn btn-primary btn-lg">Demo</a>
+                </div>
+                <div class="visible-md">
+                  <br><br>
+                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/guida-sql-injection/" class="btn btn-success">Guida SQL Injection</a>
+                  <a target="_blank" href="http://sqlidemo.altervista.org/" target="_blank" class="btn btn-primary">Demo</a>
+                  </div>
               </div>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
-              <h2>Hunting The Invaders</h2>
-              <p>Hunting The Invaders è un gioco ideato e programmato (in Javascript) interamente da OpenProgrammers</p>
+              <div class="projecttext">
+                <h2>Hunting The Invaders</h2>
+                <p>Hunting The Invaders è un gioco ideato e programmato (in Javascript) interamente da OpenProgrammers</p>
+              </div>
               <div class="projects">
                 <div class="projectimg">
                   <img class="img-responsive" src="http://shinworld.altervista.org/images/HTI.png" alt="Hunting The Invaders">
                 </div>
                 <br><br>
-                <a target="_blank" href="http://shinworld.altervista.org/wordpress/hunting-the-invaders/" class="btn btn-success btn-lg">Hunting The Invaders</a>
-                <a target="_blank" href="http://shinworld.altervista.org/downloads/HuntingTheInvaders/Game.html" class="btn btn-primary btn-lg">Demo</a>
+                <div class="hidden-md">
+                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/hunting-the-invaders/" class="btn btn-success btn-lg">Hunting The Invaders</a>
+                  <a target="_blank" href="http://shinworld.altervista.org/downloads/HuntingTheInvaders/Game.html" class="btn btn-primary btn-lg">Demo</a>
+                  </div>
+                <div class="visible-md">
+                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/hunting-the-invaders/" class="btn btn-success">Hunting The Invaders</a>
+                  <a target="_blank" href="http://shinworld.altervista.org/downloads/HuntingTheInvaders/Game.html" class="btn btn-primary">Demo</a>
+                </div>
               </div>
             </div>
           </div>
@@ -242,8 +270,10 @@
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
-              <h2>Tris in java</h2>
-              <p>Questo è il famoso gioco <a href="http://it.wikipedia.org/wiki/Tic-tac-toe">Tic Tac Toe</a>, meglio conosciuto come Tris, programmato in Java con un' "Intelligenza Artificiale" imbattibile!</p>
+              <div class="projecttext">
+                <h2>Tris in java</h2>
+                <p>Questo è il famoso gioco <a href="http://it.wikipedia.org/wiki/Tic-tac-toe">Tic Tac Toe</a>, meglio conosciuto come Tris, programmato in Java con un' "Intelligenza Artificiale" imbattibile!</p>
+              </div>
               <div class="projects">
                 <div class="projectimg">
                   <img class="img-responsive" src="http://s30.postimg.org/r3i3a6fgh/Tris.jpg" alt="Tris in Java">
@@ -256,8 +286,10 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
-              <h2>UltraPixel</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="projecttext">
+                <h2>UltraPixel</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
               <div class="projects">
                 <div class="projectimg">
                   <img class="img-responsive" src="https://i.ytimg.com/vi/lwTr-qDy45o/hqdefault.jpg" alt="UltraPixel">
