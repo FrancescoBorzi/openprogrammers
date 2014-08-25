@@ -23,7 +23,7 @@ body {
 
 .imgbox { padding: 10px; }
 
-.imgbox img, .imgbox img:hover, .radius, .radius:hover, .projects, .projects:hover, #btn-progetti, #btn-sitiweb {
+.imgbox img, .imgbox img:hover, .radius, .radius:hover, .projects, .projects:hover, #btn-progetti, #btn-sitiweb, .gotop {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -109,6 +109,7 @@ body {
   max-height: 180px;
   overflow: hidden;
 }
+
 .projectimg img { margin: auto; }
 
 .projecttext { height: 145px; }
@@ -126,7 +127,15 @@ body {
     height: 325px;
     opacity: 1; 
   }
-
+  
+  .projects:hover .gotop {
+    margin-top: -35px;
+  }
+  
+  .gotop a {
+    margin-bottom: 5px;
+  }
+  
   .projectsdiv {
     height: 510px;
   }

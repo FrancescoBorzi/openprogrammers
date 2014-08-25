@@ -185,10 +185,10 @@
                   <a target="_blank" href="http://shinworld.altervista.org/wordpress/mst-demo/" class="btn btn-success btn-lg">Minimum Spanning Tree</a>
                   <a target="_blank" href="http://shinworld.altervista.org/mst-demo/" target="_blank" class="btn btn-primary btn-lg">Demo</a>
                 </div>
-                <div class="visible-md visible-sm">
-                  <br><br><br>
-                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/mst-demo/" class="btn btn-success">Minimum Spanning Tree</a>
-                  <a target="_blank" href="http://shinworld.altervista.org/mst-demo/" target="_blank" class="btn btn-primary">Demo</a>            
+                <div class="visible-md visible-sm gotop">
+                  <br><br>
+                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/mst-demo/" class="btn btn-success btn-lg">Minimum Spanning Tree</a><br>
+                  <a target="_blank" href="http://shinworld.altervista.org/mst-demo/" target="_blank" class="btn btn-primary btn-lg">Demo</a>            
                 </div>
               </div>
             </div>
@@ -223,10 +223,10 @@
                   <a target="_blank" href="http://shinworld.altervista.org/wordpress/guida-sql-injection/" class="btn btn-success btn-lg">Guida SQL Injection</a>
                   <a target="_blank" href="http://sqlidemo.altervista.org/" target="_blank" class="btn btn-primary btn-lg">Demo</a>
                 </div>
-                <div class="visible-md">
-                  <br><br>
-                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/guida-sql-injection/" class="btn btn-success">Guida SQL Injection</a>
-                  <a target="_blank" href="http://sqlidemo.altervista.org/" target="_blank" class="btn btn-primary">Demo</a>
+                <div class="visible-md gotop">
+                  <br>
+                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/guida-sql-injection/" class="btn btn-success btn-lg">Guida SQL Injection</a><br>
+                  <a target="_blank" href="http://sqlidemo.altervista.org/" target="_blank" class="btn btn-primary btn-lg">Demo</a>
                   </div>
               </div>
             </div>
@@ -237,18 +237,19 @@
                 <h2>Hunting The Invaders</h2>
                 <p>Hunting The Invaders è un gioco ideato e programmato (in Javascript) interamente da OpenProgrammers</p>
               </div>
-              <div class="projects">
+              <div class="projects" style="padding-top: 10px;">
                 <div class="projectimg">
-                  <img class="img-responsive" src="http://shinworld.altervista.org/images/HTI.png" alt="Hunting The Invaders">
+                  <img class="img-responsive" height="100" src="http://shinworld.altervista.org/images/HTI.png" alt="Hunting The Invaders">
                 </div>
                 <br><br>
                 <div class="hidden-md">
                   <a target="_blank" href="http://shinworld.altervista.org/wordpress/hunting-the-invaders/" class="btn btn-success btn-lg">Hunting The Invaders</a>
                   <a target="_blank" href="http://shinworld.altervista.org/downloads/HuntingTheInvaders/Game.html" class="btn btn-primary btn-lg">Demo</a>
                   </div>
-                <div class="visible-md">
-                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/hunting-the-invaders/" class="btn btn-success">Hunting The Invaders</a>
-                  <a target="_blank" href="http://shinworld.altervista.org/downloads/HuntingTheInvaders/Game.html" class="btn btn-primary">Demo</a>
+                <div class="visible-md gotop">
+                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/hunting-the-invaders/" class="btn btn-success btn-lg">Hunting The Invaders</a><br>
+                  <a target="_blank" href="http://shinworld.altervista.org/downloads/HuntingTheInvaders/Game.html" class="btn btn-primary btn-lg">Demo</a>
+                  <br><br><br><br>
                 </div>
               </div>
             </div>
