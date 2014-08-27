@@ -229,13 +229,30 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="projectsdiv">
+              <div class="projecttext">
+                <h2>PvPstats</h2>
+                <p>Sistema di statistiche per CMaNGOS e TrinityCore scritto facendo uso dei linguaggi C++, SQL, PHP, JavaScript, HTML e CSS.</p>
+              </div>
+              <div class="projects">
+                <div class="projectimg">
+                  <img class="img-responsive" src="images/PvPstats.png" alt="PvPstats">
+                </div>
+                <br><br>
+                <a target="_blank" href="https://github.com/ShinDarth/PvPstats" class="btn btn-success btn-lg">PvPstats</a>
+              </div>
+            </div>
+          </div>
+
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
               <div class="projecttext">
                 <h2>Hunting The Invaders</h2>
                 <p>Hunting The Invaders è un gioco ideato e programmato (in Javascript) interamente da OpenProgrammers.</p>
               </div>
-              <div class="projects" style="padding-top: 10px;">
+              <div class="projects">
                 <div class="projectimg">
                   <img class="img-responsive" height="100" src="http://shinworld.altervista.org/images/HTI.png" alt="Hunting The Invaders">
                 </div>
@@ -252,20 +269,54 @@
               </div>
             </div>
           </div>
-          <!--
+
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
-              <h2>PvPStats</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="projecttext">
+                <h2>HTML-BBCode converter</h2>
+                <p>Convertitore da HTML a BBCode scritto in Java per un progetto di Ingegneria del Software.</p>
+              </div>
               <div class="projects">
-                <img class="img-responsive" src="http://shinworld.altervista.org/images/HTI.png" alt="PvPStats" width="100%" height="191">
+                <div class="projectimg">
+                  <img class="img-responsive" src="images/convertitore.png" alt="HTML-BBCode converter">
+                </div>
                 <br><br>
-                <a taget="_blank" href="https://github.com/ShinDarth/PvPstats" class="btn btn-success btn-lg">PvPStats</a>
-                <a target="_blank" href="http://shinworld.altervista.org/pvpstats/" class="btn btn-primary btn-lg">Demo</a>
+                <a target="_blank" href="http://shinworld.altervista.org/wordpress/convertitore-html-bbcode-scritto-in-java/" class="btn btn-success btn-lg">Convertitore HTML-BBCode</a>
               </div>
             </div>
           </div>
-          -->
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="projectsdiv">
+              <div class="projecttext">
+                <h2>Huffman Encoding</h2>
+                <p>Codifica di Huffman implementata in C++</p>
+              </div>
+              <div class="projects">
+                <div class="projectimg">
+                  <img class="img-responsive" src="http://shinworld.altervista.org/images/huffman.png" alt="Huffman C++">
+                </div>
+                <br><br>
+                <a target="_blank" href="http://shinworld.altervista.org/wordpress/implementare-la-codifica-di-huffman-in-c/" class="btn btn-success btn-lg">Codifica di Huffman</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="projectsdiv">
+              <div class="projecttext">
+                <h2>CKJM</h2>
+                <p>Tool per valutare la modularità di software Java.</p>
+              </div>
+              <div class="projects">
+                <div class="projectimg">
+                  <img class="img-responsive" src="images/ckjm.png" alt="ckjm fragm">
+                </div>
+                <br><br>
+                <a target="_blank" href="https://github.com/ShinDarth/ckjm" class="btn btn-success btn-lg">CKJM</a>
+              </div>
+            </div>
+          </div>
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
@@ -283,6 +334,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
               <div class="projecttext">
