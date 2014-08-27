@@ -180,13 +180,9 @@
                 <div class="projectimg">
                   <img class="img-responsive" src="http://shinworld.altervista.org/images/mst-demo.png" alt="Minimum Spanning Tree Algorithm">
                 </div>
-                <br><br><br class="hidden-md hidden-sm">
-                <div class="hidden-md hidden-sm">
+                <div>
+                  <br><br><br><br><p class="visible-md"><br></p>
                   <a target="_blank" href="http://shinworld.altervista.org/wordpress/mst-demo/" class="btn btn-success btn-lg">Minimum Spanning Tree</a>
-                </div>
-                <div class="visible-md visible-sm gotop">
-                  <br><br>
-                  <a target="_blank" href="http://shinworld.altervista.org/wordpress/mst-demo/" class="btn btn-success btn-lg">Minimum Spanning Tree</a><br>
                 </div>
               </div>
             </div>
@@ -216,13 +212,13 @@
               </div>
               <div class="projects">
                 <img class="img-responsive" src="images/portfolio/sqlidemo.png" alt="SQL Injection">
-                <br><br>
+                <br><br><p class="visible-sm"><br></p>
                 <div class="hidden-md">
                   <a target="_blank" href="http://shinworld.altervista.org/wordpress/guida-sql-injection/" class="btn btn-success btn-lg">Guida SQL Injection</a>
                   <a target="_blank" href="http://sqlidemo.altervista.org/" target="_blank" class="btn btn-primary btn-lg">Demo</a>
                 </div>
                 <div class="visible-md gotop">
-                  <br>
+                  <br><br>
                   <a target="_blank" href="http://shinworld.altervista.org/wordpress/guida-sql-injection/" class="btn btn-success btn-lg">Guida SQL Injection</a><br>
                   <a target="_blank" href="http://sqlidemo.altervista.org/" target="_blank" class="btn btn-primary btn-lg">Demo</a>
                   </div>
@@ -312,7 +308,7 @@
                 <div class="projectimg">
                   <img class="img-responsive" src="images/ckjm.png" alt="ckjm fragm">
                 </div>
-                <br><br>
+                <br><br><p class="visible-md"><br></p>
                 <a target="_blank" href="https://github.com/ShinDarth/ckjm" class="btn btn-success btn-lg">CKJM</a>
               </div>
             </div>
