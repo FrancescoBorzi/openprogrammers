@@ -174,7 +174,7 @@
             <div class="projectsdiv">
               <div class="projecttext">
                 <h2>Minimum Spanning Tree</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Simulatore di algoritmi per trovare l’<a href="http://it.wikipedia.org/wiki/Albero_ricoprente" target="_blank">albero di copertura minimo</a> di un <a href="http://it.wikipedia.org/wiki/Grafo">grafo</a> connesso con <a href="http://it.wikipedia.org/wiki/Arco_(teoria_dei_grafi)" target="_blank">archi</a> non orientati.</p>
               </div>
               <div class="projects">
                 <div class="projectimg">
@@ -183,12 +183,10 @@
                 <br><br><br class="hidden-md hidden-sm">
                 <div class="hidden-md hidden-sm">
                   <a target="_blank" href="http://shinworld.altervista.org/wordpress/mst-demo/" class="btn btn-success btn-lg">Minimum Spanning Tree</a>
-                  <a target="_blank" href="http://shinworld.altervista.org/mst-demo/" target="_blank" class="btn btn-primary btn-lg">Demo</a>
                 </div>
                 <div class="visible-md visible-sm gotop">
                   <br><br>
                   <a target="_blank" href="http://shinworld.altervista.org/wordpress/mst-demo/" class="btn btn-success btn-lg">Minimum Spanning Tree</a><br>
-                  <a target="_blank" href="http://shinworld.altervista.org/mst-demo/" target="_blank" class="btn btn-primary btn-lg">Demo</a>            
                 </div>
               </div>
             </div>
@@ -198,7 +196,7 @@
             <div class="projectsdiv">
               <div class="projecttext">
                 <h2>CSS3 Cool Effects</h2>
-                <p>CSS3 Cool Effects è un sito che raccoglie tutti gli effetti CSS3 ideati e programmati da OpenProgrammers</p>
+                <p>CSS3 Cool Effects è un sito che raccoglie tutti gli effetti CSS3 ideati e programmati da OpenProgrammers.</p>
               </div>
               <div class="projects">
                 <div class="projectimg">
@@ -214,7 +212,7 @@
             <div class="projectsdiv">
               <div class="projecttext">
                 <h2>SQL Injection</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Introduzione all'SQL Injection ed applicazione web esemplificativa.</p>
               </div>
               <div class="projects">
                 <img class="img-responsive" src="images/portfolio/sqlidemo.png" alt="SQL Injection">
@@ -235,7 +233,7 @@
             <div class="projectsdiv">
               <div class="projecttext">
                 <h2>Hunting The Invaders</h2>
-                <p>Hunting The Invaders è un gioco ideato e programmato (in Javascript) interamente da OpenProgrammers</p>
+                <p>Hunting The Invaders è un gioco ideato e programmato (in Javascript) interamente da OpenProgrammers.</p>
               </div>
               <div class="projects" style="padding-top: 10px;">
                 <div class="projectimg">
@@ -289,7 +287,7 @@
             <div class="projectsdiv">
               <div class="projecttext">
                 <h2>UltraPixel</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Vecchio tema per WordPress, non più sviluppato, che realizzammo diversi anni fa.</p>
               </div>
               <div class="projects">
                 <div class="projectimg">
@@ -297,7 +295,7 @@
                 </div>
                 <br><br>
                 <a target="_blank" href="http://shinworld.altervista.org/wordpress/ultrapixel-theme-for-wordpress/" class="btn btn-success btn-lg">UltraPixel</a>
-                <a target="_blank" href="http://uporangejuice.altervista.org/" class="btn btn-primary btn-lg">Demo</a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=lwTr-qDy45o" class="btn btn-primary btn-lg">Demo</a>
               </div>
             </div>
           </div>
