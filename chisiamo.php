@@ -80,7 +80,7 @@
           <h2 align="center">Stefano Borzì</h2>
           <div class="row">
             <div class="col-xs-8 text-justify">
-              <p>Sono un giovane appassionato di informatica, mi sono diplomato al Liceo Scientifico PNI (Piano Nazionale di Informatica), attualmente frequento l'universit� di Catania nel corso di laurea Informatica.</p>
+              <p>Sono un giovane appassionato di informatica, mi sono diplomato al Liceo Scientifico PNI (Piano Nazionale di Informatica), attualmente frequento l'universit&agrave; di Catania nel corso di laurea Informatica.</p>
               <p>La programmazione e la realizzazione di siti web è la mia attività preferita.</p>
               <p>Mi piace stare sempre al passo con la tecnologia apprendendo tutte le nuove tecniche del web in circolazione.</p>
               <p>Sono il responsabile tecnico informatico del progetto <a href="http://youtube.com/salvocd">LiberaDiretta</a> di cui gestisco il sito web.</p>
