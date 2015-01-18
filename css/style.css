@@ -241,3 +241,11 @@ form {
 }
 
 #progetti { display: none; }
+
+.ld {	font-size: 13px; }
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.ld {	font-size: 11px; }
+}

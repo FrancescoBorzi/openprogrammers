@@ -79,6 +79,22 @@
 
         <hr class="featurette-divider">
 
+        <div class="row featurette radius bg-danger">
+          <h2 class="visible-xs featurette-heading">LiberaDiretta</h2>
+          <div class="col-sm-5">
+            <div class="imgbox">
+              <a target="_blank" href="http://liberadiretta.altervista.org/"><img class="img-responsive" src="images/portfolio/liberadiretta.png" alt="LiberaDiretta"></a>
+            </div>
+          </div>
+          <div class="col-sm-7">
+            <h2 class="hidden-xs featurette-heading">LiberaDiretta</h2>
+            <p class="lead ld">Libera Diretta &egrave; un esperimento di comunicazione, effettuato attraverso il sistema hangout di Google, per affrontare IN DIRETTA una serie di questioni di attualit&agrave;, politica, economia, cultura, attinenti all'Italia, ma anche di respiro internazionale. Chiunque voglia pu&ograve; partecipare alla trasmissione, intervenendo direttamente nello hangout, oppure commentando tramite Youtube e Facebook. Vogliamo essere uno spazio di libero confronto, alternativo a quello dei mass media tradizionali.</p>
+            <h2 class="gosite"><a target="_blank" href="http://liberadiretta.altervista.org/">Vai al sito →</a></h2>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
         <div class="row featurette radius" style="background-color: #ededed;">
           <h2 class="visible-xs featurette-heading">Jo Frederiks</h2>
           <div class="col-sm-5">
@@ -109,22 +125,6 @@
             <div class="imgbox">
               <a target="_blank" href="http://photoevideocorallo.it"><img class="img-responsive" src="images/portfolio/corallovideo.png" alt="Foto e Video Corallo"></a>
             </div>
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette radius bg-danger">
-          <h2 class="visible-xs featurette-heading">LiberaDiretta</h2>
-          <div class="col-sm-5">
-            <div class="imgbox">
-              <a target="_blank" href="http://liberadiretta.altervista.org/"><img class="img-responsive" src="images/portfolio/liberadiretta.png" alt="LiberaDiretta"></a>
-            </div>
-          </div>
-          <div class="col-xs-7">
-            <h2 class="hidden-xs featurette-heading">LiberaDiretta</h2>
-            <p class="lead">Un esperimento di comunicazione...</p>
-            <h2 class="gosite"><a target="_blank" href="http://liberadiretta.altervista.org/">Vai al sito →</a></h2>
           </div>
         </div>
 
