@@ -113,6 +113,22 @@
 
         <hr class="featurette-divider">
 
+        <div class="row featurette radius bg-warning">
+          <h2 class="visible-xs featurette-heading">Progettazione-interni.org</h2>
+          <div class="col-sm-7">
+            <h2 class="hidden-xs featurette-heading">Progettazione-interni.org</h2>
+            <p class="lead">Studio della distribuzione degli spazi, di ristrutturazioni e di arredamento.</p>
+            <h2 class="gosite"><a target="_blank" href="http://progettazione-interni.org">Vai al sito →</a></h2>
+          </div>
+          <div class="col-sm-5">
+            <div class="imgbox">
+              <a target="_blank" href="http://progettazione-interni.org"><img class="img-responsive" src="images/portfolio/progettazioneinterni.png" alt="Progettazione-Interni.org"></a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
         <div class="row featurette radius bg-info">
           <h2 class="visible-xs featurette-heading">Foto e Video Corallo</h2>
           <div class="col-sm-7">
@@ -124,22 +140,6 @@
           <div class="col-sm-5">
             <div class="imgbox">
               <a target="_blank" href="http://photoevideocorallo.it"><img class="img-responsive" src="images/portfolio/corallovideo.png" alt="Foto e Video Corallo"></a>
-            </div>
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette radius bg-warning">
-          <h2 class="visible-xs featurette-heading">Progettazione-interni.org</h2>
-          <div class="col-sm-7">
-            <h2 class="hidden-xs featurette-heading">Progettazione-interni.org</h2>
-            <p class="lead">Studio della distribuzione degli spazi, di ristrutturazioni e di arredamento.</p>
-            <h2 class="gosite"><a target="_blank" href="http://progettazione-interni.org">Vai al sito →</a></h2>
-          </div>
-          <div class="col-sm-5">
-            <div class="imgbox">
-              <a target="_blank" href="http://progettazione-interni.org"><img class="img-responsive" src="images/portfolio/progettazioneinterni.png" alt="Progettazione-Interni.org"></a>
             </div>
           </div>
         </div>
