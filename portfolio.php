@@ -173,6 +173,25 @@
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="projectsdiv">
               <div class="projecttext">
+                <h2>Othello in AngularJS</h2>
+                <p>Il nostro primo progetto scritto in AngularJS, il gioco dell'Othello con intelligenza artificiale.</p>
+              </div>
+              <div class="projects">
+                <div class="projectimg">
+                  <img class="img-responsive" src="images/othello.png" alt="Othello in AngularJS">
+                </div>
+                <div>
+                  <br><br><br><br><p class="visible-md"><br></p>
+                  <a target="_blank" href="http://github.com/ShinDarth/Othello" class="btn btn-success btn-lg">Othello</a>
+                  <a target="_blank" href="http://shinworld.altervista.org/othello/" class="btn btn-primary btn-lg">Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="projectsdiv">
+              <div class="projecttext">
                 <h2>Minimum Spanning Tree</h2>
                 <p>Simulatore di algoritmi per trovare l’<a href="http://it.wikipedia.org/wiki/Albero_ricoprente" target="_blank">albero di copertura minimo</a> di un <a href="http://it.wikipedia.org/wiki/Grafo">grafo</a> connesso con <a href="http://it.wikipedia.org/wiki/Arco_(teoria_dei_grafi)" target="_blank">archi</a> non orientati.</p>
               </div>
